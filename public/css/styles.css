@@ -1,0 +1,57 @@
+/* styles.css */
+/* Reset de estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Enlace sin decoración y color inicial */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Enlace visitado sin cambiar de color */
+a:visited {
+    color: #fff;
+}
+
+/* Quitar subrayado al pasar el ratón */
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.bg-pblack {
+    background-color: #000;
+}
+
+.text-pwhite {
+    color: #fff;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.pl-18421 {
+    padding-left: 1.8421vw;
+}
+
+.p-36842 {
+    padding: 3.6842vw;
+}
+
+.mb-7 {
+    margin-bottom: 5.8571rem !important;
+}
+
+.btn-white {
+    background-color: #fff;
+}

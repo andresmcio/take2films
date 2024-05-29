@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .parallax-article {
+      background-position: center !important;
+      background-size: 100vw 100vh !important;
+    }
+  }
