@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#161919;}
+	.st1{fill:#D1D3D4;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Poppins-Regular';}
+	.st4{font-size:42.6505px;}
+</style>
+<g id="_x34_">
+	<g>
+		<g>
+			<rect x="8.99" y="26.11" class="st0" width="44.99" height="1.47"/>
+			<path class="st0" d="M8.99,27.58v25.61c0,1.29,1.27,2.34,2.83,2.34h39.32c1.57,0,2.83-1.05,2.83-2.34V27.58H8.99z"/>
+		</g>
+		<g>
+			<path class="st0" d="M55.36,20.52H7.25v5.86h48.12c0.5,0,0.91-0.49,0.91-1.1v-3.66C56.28,21.02,55.87,20.52,55.36,20.52z"/>
+			<polygon class="st1" points="15.86,21.3 10.38,26.39 19.42,26.39 24.91,21.3 			"/>
+			<polygon class="st1" points="29.38,21.3 23.89,26.39 32.94,26.39 38.42,21.3 			"/>
+			<polygon class="st1" points="43.25,21.3 37.77,26.39 46.81,26.39 52.29,21.3 			"/>
+		</g>
+		<g>
+			<path class="st0" d="M55.38,14.16L8.99,20.81l-0.75-5.7l46.39-6.64c0.48-0.07,0.93,0.35,1.01,0.94l0.47,3.56
+				C56.18,13.56,55.85,14.09,55.38,14.16z"/>
+			<polygon class="st1" points="20.98,18.82 15.08,14.52 23.72,13.29 29.62,17.59 			"/>
+			<polygon class="st1" points="33.89,16.98 27.99,12.69 36.64,11.46 42.53,15.75 			"/>
+			<polygon class="st1" points="47.15,15.09 41.25,10.8 49.89,9.57 55.79,13.86 			"/>
+		</g>
+		<g>
+			<path class="st0" d="M23.44,22.33l-8.11-9.68l-7.09,0.87v13.24h12.61C23.47,26.76,24.98,24.18,23.44,22.33z"/>
+			<g>
+				<path class="st1" d="M11.85,22.39c-0.7,0-1.27,0.57-1.27,1.27c0,0.7,0.57,1.27,1.27,1.27c0.7,0,1.27-0.57,1.27-1.27
+					C13.12,22.96,12.55,22.39,11.85,22.39z"/>
+				<path class="st1" d="M11.85,14.48c-0.7,0-1.27,0.57-1.27,1.27s0.57,1.27,1.27,1.27c0.7,0,1.27-0.57,1.27-1.27
+					S12.55,14.48,11.85,14.48z"/>
+				<circle class="st1" cx="20.44" cy="23.66" r="1.27"/>
+			</g>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1.4685 0 0 1 16.7617 53.7119)" class="st2 st3 st4">x</text>
+</svg>

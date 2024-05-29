@@ -1,0 +1,30 @@
+{
+  "name": "take2films",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx nodemon ./src/app.js",
+    "send-testmail": "node ./src/tests/testMail.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresmcio/take2films.git"
+  },
+  "author": "Andrés Ibarra",
+  "license": "SEE LICENSE IN LICENSE",
+  "licenseFiles": {
+    "code": "LICENSE",
+    "content": "CONTENT_LICENSE.md"
+  },
+  "bugs": {
+    "url": "https://github.com/andresmcio/take2films/issues"
+  },
+  "homepage": "https://github.com/andresmcio/take2films#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  }
+}

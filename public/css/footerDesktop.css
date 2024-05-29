@@ -1,0 +1,17 @@
+footer > div:first-child {
+    gap: 10vw;
+}
+
+div.social-media {
+    align-self: flex-end;
+}
+
+footer > div.separator {
+    border-bottom: #424242 1px solid;
+    margin-left: 5.89vw;
+    width: 79.47vw;
+}
+
+footer > div.copy > img {
+    width: 9.21vw;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+    .navbar-nav {
+        position: static;
+        margin: 0;
+        padding-top: 1.1447vh; /* 21.75px / 1900px * 100 */
+    }
+    .nav-link {
+        margin-left: 0;
+    }
+
+    .navbar-brand {
+        left: 8vw !important;
+    }
+}
