@@ -324,7 +324,11 @@ div.modal-header {
     animation-name: fadeInUpBig;
   }
 
+article div a {
+    transition: font-size 0.3s ease, transform 0.3s ease;
+}
+
   article:hover div a {
     font-size: 3.99em;
-    translate: translateY(10px);
+    translate: translateY(-10px);
   }
