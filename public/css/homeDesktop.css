@@ -133,7 +133,7 @@
   }
   .carousel-caption {
     top: 50%;
-    left: 43vw;
+    left: 39vw;
     transform: translateY(-50%);
     bottom: initial;
   }
@@ -179,7 +179,7 @@
 
 #equipo > div > div > div > .card {
     /* border: #ffffff 1px solid; */
-    min-height: 21.13vw;
+    min-height: 23.5vw;
     position: relative;
 }
 
@@ -217,4 +217,65 @@ img.FHC, img.PipeB {
 
 section#aliados div:last-child {
     gap: 10vw;
+}
+
+/* --------- Modals ---------*/
+
+.modal {
+    --bs-modal-width: inherit !important;
+}
+
+.modal.fade {
+    margin-top: 3vw;
+}
+
+.modal-wrapper {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-wrapper, .modal-content, .modal-header, .modal-body {
+    width: 60vw;
+}
+
+button.btn-closing {
+    background: transparent;
+    border: none;
+    height: 4em;
+    width: 4em;
+}
+
+iframe.video-viewer {
+    height: 25vw;
+    margin-top: 0.3vw;
+    width: 50vw;
+}
+
+div.iframe-text, div.bio-text {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1.5vw;
+}
+
+div.modal-header {
+    padding-left: 3vw;    
+}
+
+.modal.fade.bio-modal {
+    margin-top: 5vw;
+}
+
+/* CSS to add blur effect */
+.blur-background {
+    filter: blur(10px);
+}
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    transform: translate(0, 0);
+}
+
+.modal.fade.show .modal-dialog {
+    transform: translate(0, 0);
 }
