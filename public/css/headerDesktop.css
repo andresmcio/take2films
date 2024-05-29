@@ -1,5 +1,5 @@
 header {
-    height: 18.7368vh; /* 356px / 1900px * 100 */
+    height: 18.7368vw; /* 356px / 1900px * 100 */
     padding-top: 1.1447vh; /* 21.75px / 1900px * 100 */
     position: relative;
 }

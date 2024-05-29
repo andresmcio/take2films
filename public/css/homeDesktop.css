@@ -10,7 +10,7 @@
 /* --------- First section backgrounds ---------*/
 
 .caption-container, .carousel-caption {
-    background-color: #42424241;
+    background-color: #2F2F2F50;
     border-radius: 10px;
     width: fit-content;
 }
@@ -325,5 +325,6 @@ div.modal-header {
   }
 
   article:hover div a {
-    font-size: 4.58em;
+    font-size: 3.99em;
+    translate: translateY(10px);
   }

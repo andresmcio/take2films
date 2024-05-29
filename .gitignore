@@ -130,3 +130,7 @@ dist
 .pnp.*
 
 .DS_Store
+
+T2F.sh
+setup.txt
+T2F.bat
