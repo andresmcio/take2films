@@ -35,3 +35,19 @@ header {
 .nav-link:hover, .nav-link:focus{
     color: cyan;
 }
+
+.fixed-navlinks {
+    bottom: 47.2vw;
+    position: fixed;
+    right: 11vw;
+    z-index: 9999;
+    opacity: 0;
+}
+
+.fixed-navlinks:hover {
+    opacity: 1;
+}
+
+.fixed-navlinks:hover + .ml-auto {
+    opacity: 0;
+}

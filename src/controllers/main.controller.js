@@ -24,7 +24,7 @@ module.exports = {
         res.render('home', {
             title: 'Take2Films | Home',
             styles: ['homeMobile', 'homeTablet', 'homeDesktop'],
-            scripts: ['visuals', 'carousel', 'videoHandler', 'blurHandler'],
+            scripts: ['visuals', 'carousel', 'videoHandler', 'blurHandler', 'reelHandler'],
             sections: content,
         });
     },
