@@ -31,7 +31,7 @@
 }
 
 .parallax-section > .bg-img-staff {
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/nuestro equipo.png");
+    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/fondo nuestro equipo.png");
     background-position: right center;
 }
 
@@ -51,6 +51,10 @@
 
 .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
     background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/aliados silla.png");
+}
+
+.parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
+    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/nuestro equipo.png");
 }
 
 .reel {
