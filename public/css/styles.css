@@ -32,6 +32,10 @@ a:hover, a:focus {
     background-color: #000;
 }
 
+.bg-pblackT {
+    background-color: #00000085;
+}
+
 .text-pwhite {
     color: #fff;
 }
@@ -40,8 +44,8 @@ a:hover, a:focus {
     text-align: justify;
 }
 
-.pl-18421 {
-    padding-left: 1.8421vw;
+.pl-3 {
+    padding-left: 3vw;
 }
 
 .p-36842 {
@@ -50,6 +54,30 @@ a:hover, a:focus {
 
 .mb-7 {
     margin-bottom: 5.8571rem !important;
+}
+
+.mb-42px {
+    margin-bottom: 2.21vw;
+}
+
+.mb-63px {
+    margin-bottom: 3.3157vw;
+}
+
+.mb-82px {
+    margin-bottom: 4.3157vw;
+}
+
+.mb-115px {
+    margin-bottom: 6.052vw;
+}
+
+.mb-148px {
+    margin-bottom: 7.79vw;
+}
+
+.mb-200px {
+    margin-bottom: 10.526vw;
 }
 
 .btn-white {

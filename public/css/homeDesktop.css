@@ -9,7 +9,7 @@
 
 /* --------- First section backgrounds ---------*/
 
-.caption-container, .carousel-caption {
+.caption-container, .carousel-caption, .staff-caption {
     background-color: #2F2F2F50;
     border-radius: 10px;
     width: fit-content;
@@ -62,6 +62,31 @@
     width: 50vw;
 }
 
+
+/* --------- About us ---------*/
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+.play-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.play-button svg {
+    width: 64px;
+    height: 64px;
+    color: white;
+}
+
+.video-container:hover .play-button svg {
+    color: cyan;
+}
+
+
 /* --------- Projects backgrounds ---------*/
 
 .parallax-section > .bg-img-fumo {
@@ -73,7 +98,6 @@
     background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/coming soon los restos de la cama- coproductores 950 x 956.png");
     background-position: right center;
 }
-
 
 .parallax-section > .bg-img-opening {
     background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/opening concierto 950 x 956.png");
@@ -129,23 +153,38 @@
 .carousel-item {
     height: 31.3684vw; /* Relative height for 596px at 1900px width */
     max-height: 596px;
-  }
-  .carousel-item img {
+}
+
+.carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .carousel-caption {
+}
+
+.carousel-caption {
     top: 50%;
-    left: 39vw;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     bottom: initial;
-  }
+}
+
+.caption-left {
+    left: 25%;
+}
+
+.caption-right {
+    left: 75%;
+}
+
+.carousel-item > .row > div, #customCarousel {
+    padding: 0;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: transparent;
     border: 1px solid transparent;
+    height: 60px;
+    width: 40px;
 }
 
 .carousel-control-prev-icon::before,
@@ -177,9 +216,10 @@
 
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev,
-.carousel-inner .active{
+.carousel-inner .active {
     transition: transform 0.6s ease-in-out;
 }
+
 
 #equipo > div > div > div > .card {
     /* border: #ffffff 1px solid; */
@@ -193,10 +233,33 @@
     left: 39%;
 }
 
-#equipo > div > div > div > .card > .card-body > a.btn:hover, #contacto > div.form-wrapper > form > div.btn-wrapper > button.btn:hover {
-    background-color: #000000;
-    border: #ffffff 1px solid;
-    color: #ffffff !important;
+/* --------- Staff ---------*/
+
+.staff-row-wrapper {
+    gap: 2.21vw;
+}
+
+.wrapper-1 {
+    margin-top: 3.895vw;
+}
+
+.card-wrapper {
+    position: relative;
+}
+
+.card-wrapper, .card-img-bg {
+    height: 12.736vw;
+    width: 12.736vw;
+}
+
+.staff-caption {
+    position: absolute;
+    transition: visibility 0.3s ease-in;
+    visibility: hidden;
+}
+
+.card-wrapper:hover .staff-caption {
+    visibility: visible;
 }
 
 
@@ -227,6 +290,7 @@ section#aliados div:last-child {
 
 .modal {
     --bs-modal-width: inherit !important;
+    --bs-modal-header-border-color: none;
 }
 
 .modal.fade {
@@ -237,10 +301,15 @@ section#aliados div:last-child {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    min-height: 38.9vw;
 }
 
 .modal-wrapper, .modal-content, .modal-header, .modal-body {
     width: 60vw;
+}
+
+.modal-dialog {
+    margin-top: 0;
 }
 
 button.btn-closing {
@@ -256,10 +325,13 @@ iframe.video-viewer {
     width: 50vw;
 }
 
+div.iframe-text {
+    padding-top: 1.5vw;
+}
+
 div.iframe-text, div.bio-text {
     padding-left: 2vw;
     padding-right: 2vw;
-    padding-top: 1.5vw;
 }
 
 div.modal-header {
@@ -268,6 +340,16 @@ div.modal-header {
 
 .modal.fade.bio-modal {
     margin-top: 5vw;
+}
+
+div.bio-text {
+    position: relative;
+    top: -1.5vw;
+}
+
+.imdb-logo {
+    height: 2vw;
+    width: 3vw;
 }
 
 /*------- CSS to add blur effect ------*/
@@ -282,6 +364,28 @@ div.modal-header {
 
 .modal.fade.show .modal-dialog {
     transform: translate(0, 0);
+}
+
+
+/*------- form ------*/
+
+#contacto {
+    padding-top: 4vw;
+}
+
+.mb-form {
+    margin-bottom: 2.1052vw;
+}
+
+#contacto > div.form-wrapper > form > div.btn-wrapper > button.btn {
+    height: 2.1052vw;
+    width: 4.3157vw;
+}
+
+#contacto > div.form-wrapper > form > div.btn-wrapper > button.btn:hover {
+    background-color: #000000;
+    border: #ffffff 1px solid;
+    color: #ffffff !important;
 }
 
 /*------- animations ------*/
@@ -328,11 +432,15 @@ div.modal-header {
     animation-name: fadeInUpBig;
   }
 
-article div a {
+  #start div.parallax-section article.parallax-article div.caption-container a, #proyectos div.parallax-section article.parallax-article div.caption-container a {
     transition: font-size 0.3s ease, transform 0.3s ease;
 }
 
-  article:hover div a {
-    font-size: 3.99em;
+  #start div.parallax-section article.parallax-article:hover div.caption-container a {
+    font-size: 2.9em;
     translate: translateY(-10px);
+  }
+
+  #proyectos div.parallax-section article.parallax-article:hover div.caption-container a {
+    font-size: 1.2em;
   }

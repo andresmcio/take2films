@@ -1,21 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
     const carousel = document.querySelector('#customCarousel');
-    const interval = 1500;
     const items = carousel.querySelectorAll('.carousel-item');
-    const totalItems = items.length;
-    let currentIndex = 0;
 
-    function moveCarousel(next) {
-      $(carousel).carousel(next);
+    if (window.innerWidth >= 768) {
+        carousel.querySelector('.carousel-item').classList.add('active');
+
+        for (let i = 0; i < items.length; i += 2) {
+            const next = items[i].nextElementSibling;
+
+            if (next) {
+                next.classList.add('active');
+            }
+        }
     }
-
-    setInterval(() => {
-      if (window.innerWidth < 768) {
-        moveCarousel('next');
-      } else {
-        const nextIndex = (currentIndex + 2) % totalItems;
-        $(carousel).carousel(nextIndex);
-        currentIndex = nextIndex;
-      }
-    }, interval);
-  });
+});
