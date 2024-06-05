@@ -10,7 +10,7 @@
 /* --------- First section backgrounds ---------*/
 
 .caption-container, .carousel-caption, .staff-caption {
-    background-color: #2F2F2F50;
+    /* background-color: #2F2F2F50; */
     border-radius: 10px;
     width: fit-content;
 }
@@ -266,24 +266,29 @@
 /* --------- Aliados ---------*/
 
 section#aliados > div.brands-3 {
+    gap: 2vw;
     padding-left: 8vw;
     padding-right: 8vw;
 }
 
 img.l-tengo, img.proyectil {
-    width: 20vw;
+    width: 17vw;
 }
 
 img.casa-dc {
-    width: 35vw;
+    width: 27vw;
 }
 
-img.FHC, img.PipeB {
-    width: 15vw;
+img.FHC {
+    width: 13vw;
+}
+
+img.PipeB {
+    width: 10vw;
 }
 
 section#aliados div:last-child {
-    gap: 10vw;
+    gap: 8vw;
 }
 
 /* --------- Modals ---------*/
@@ -309,6 +314,7 @@ section#aliados div:last-child {
 }
 
 .modal-dialog {
+    margin-bottom: 0;
     margin-top: 0;
 }
 
