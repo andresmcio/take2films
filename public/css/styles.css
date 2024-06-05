@@ -84,13 +84,6 @@ a:hover, a:focus {
     background-color: #fff;
 }
 
-.mont-b {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
-
 .popps-r {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -113,12 +106,39 @@ a:hover, a:focus {
     src: url("/fonts/Aileron-Bold.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'Grouch';
+    src: url("/fonts/Grouch.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Kabel medium';
+    src: url("/fonts/KabelMedium.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: 'Kabel demi';
+    src: url("/fonts/KabelDemi.TTF") format("truetype");
+}
+
 .ail-r {
     font-family: 'Aileron regular', Arial, Helvetica, sans-serif;
 }
 
 .ail-b {
     font-family: 'Aileron bold', Arial, Helvetica, sans-serif;
+}
+
+.grouch {
+    font-family: 'Grouch', Arial, Helvetica, serif;
+}
+
+.kabel-med {
+    font-family: 'Kabel medium', Arial, Helvetica, sans-serif;
+}
+
+.kabel-demi {
+    font-family: 'Kabel demi', Arial, Helvetica, sans-serif;
 }
 
 
@@ -150,4 +170,12 @@ a:hover, a:focus {
 
 .pt-55 {
     font-size: 4.571875em;
+}
+
+.shdw {
+    text-shadow: -0.10em 0.012em 0.042em rgba(0, 0, 0);
+}
+
+.spc {
+    letter-spacing: 0.2em;
 }
