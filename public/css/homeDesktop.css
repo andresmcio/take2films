@@ -9,8 +9,8 @@
 
 /* --------- First section backgrounds ---------*/
 
-.caption-container, .carousel-caption, .staff-caption {
-    /* background-color: #2F2F2F50; */
+.caption-container.grey-wrapper{
+    background-color: #2F2F2F50;
     border-radius: 10px;
     width: fit-content;
 }
@@ -64,6 +64,10 @@
 
 
 /* --------- About us ---------*/
+
+.we-gif {
+    width: 80%;
+}
 
 .video-container {
     position: relative;
@@ -165,6 +169,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     bottom: initial;
+    width: max-content;
 }
 
 .caption-left {
@@ -220,6 +225,13 @@
     transition: transform 0.6s ease-in-out;
 }
 
+.carousel-inner .carousel-item.active {
+    transform: translateX(0);
+}
+
+
+
+/* --------- Staff ---------*/
 
 #equipo > div > div > div > .card {
     /* border: #ffffff 1px solid; */
@@ -232,8 +244,6 @@
     position: absolute;
     left: 39%;
 }
-
-/* --------- Staff ---------*/
 
 .staff-row-wrapper {
     gap: 2.21vw;
@@ -384,7 +394,7 @@ div.bio-text {
 }
 
 #contacto > div.form-wrapper > form > div.btn-wrapper > button.btn {
-    font-size: 64.28%;
+    font-size: 110%;
     height: 2.1052vw;
     width: 4.3157vw;
 }
@@ -439,15 +449,15 @@ div.bio-text {
     animation-name: fadeInUpBig;
   }
 
-  #start div.parallax-section article.parallax-article div.caption-container a, #proyectos div.parallax-section article.parallax-article div.caption-container a {
+div.parallax-section article.parallax-article div.caption-container a, #proyectos div.parallax-section article.parallax-article div.caption-container a {
     transition: font-size 0.3s ease, transform 0.3s ease;
 }
 
-  #start div.parallax-section article.parallax-article:hover div.caption-container a {
-    font-size: 2.9em;
+div.parallax-section article.parallax-article:hover div.caption-container a {
+    font-size: 3.8em;
     translate: translateY(-10px);
   }
 
   #proyectos div.parallax-section article.parallax-article:hover div.caption-container a {
-    font-size: 1.2em;
+    font-size: 1.15em;
   }

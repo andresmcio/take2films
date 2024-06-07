@@ -29,7 +29,7 @@ a:hover, a:focus {
 }
 
 .bg-pblack {
-    background-color: #000;
+    background-color: #030303;
 }
 
 .bg-pblackT {
@@ -173,7 +173,7 @@ a:hover, a:focus {
 }
 
 .shdw {
-    text-shadow: -0.10em 0.012em 0.042em rgba(0, 0, 0);
+    text-shadow: 0.08em 0.012em 0.15em rgba(0, 0, 0);
 }
 
 .spc {
