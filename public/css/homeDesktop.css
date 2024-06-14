@@ -279,6 +279,10 @@
 
 /* --------- Aliados ---------*/
 
+#aliados {
+    margin-bottom: -20vw;
+}
+
 section#aliados > div.brands-3 {
     gap: 8vw;
     padding-left: 8vw;
@@ -321,6 +325,10 @@ img.proyectil {
 
 img.eclypsso {
     top: -27vw;
+}
+
+img.l-t2f {
+    width: 25vw;
 }
 
 
