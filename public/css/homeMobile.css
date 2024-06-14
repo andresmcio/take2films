@@ -1,6 +1,227 @@
 @media (max-width: 768px) {
     .parallax-article {
-      background-position: center !important;
-      background-size: 100vw 100vh !important;
+      background-size: 50vw 100 !important;
+      /* height: 59.813vw !important; */
+      height: 75vw !important;
     }
+
+    /* --------- First section backgrounds ---------*/
+
+    main > section:first-child, main > div:nth-child(2).mb-115px > div{
+      margin-bottom: 19.16vw !important;
+    }
+
+    .parallax-section > .bg-img-projects {
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/fondo proyectos 214X322.png") !important;
+    }
+
+    .parallax-section > .bg-img-services{
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/Servicios 214 x 322.png") !important;
+    }
+
+    .parallax-section > .bg-img-us{
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/Sobre nosotros 214 X 322.png") !important;
+    }
+
+    .parallax-section > .bg-img-staff {
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/nuestro equipo fondo 214 x 322.png") !important;
+    }
+
+    .parallax-section > .bg-img-partners {
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/fondo aliados 214X322.png") !important;
+    }
+
+    .parallax-section > .bg-img-contact{
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/contactanos 214X322.png") !important;
+    }
+
+    .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/proyectos con gente 214x322.png") !important;
+    }
+
+    .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/aliados con silla 214X322.png") !important;
+    }
+
+    .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
+      background-image: url("/img/fotos version movile 428 X 908/seccion1/nuestro equipo 214 x 322.png") !important;
+    }
+
+    a.grouch.pt-40{
+      font-size: 1.3em;
+    }
+
+    div.parallax-section article.parallax-article:hover div.caption-container a {
+      font-size: 1.5em !important;
+      translate: translateY(-10px);
+    }
+  
+    #proyectos div.parallax-section article.parallax-article:hover div.caption-container a {
+      font-size: 1.15em;
+    }
+
+    .kabel-demi.pt-55 {
+      font-size: 1.8275em;
+    }
+  
+    p.popps-r.pt-18{
+      font-size: 0.914em;
+    }
+  
+    #nosotros > div > div.p-36842, #servicios > div:first-child > div{
+      padding-bottom: 0;
+      padding-left: 13.6842vw;
+      padding-right: 13.6842vw;
+    }
+  
+    #nosotros > div:last-child {
+      margin-top: 19.16vw;
+    }
+  
+    #nosotros > div:last-child > h5.pt-30 {
+      font-size: 1.5em;
+      margin-bottom: 13.6842vw;
+    }
+  
+    #nosotros > div:last-child > div {
+      padding-left: 6.8921vw;
+      padding-right: 6.8921vw;
+    }
+  
+    #proyectos > div:first-child > h4 {
+      margin-bottom: 9.81vw;
+    }
+  
+    .grouch.pt-22 {
+      font-size: 0.597em;
+    }
+  
+    .grouch.pt-18 {
+      font-size: 0.65em;
+    }
+
+    #proyectos {
+      margin-bottom: 19.29vw;
+    }
+
+
+    /* --------- Projects backgrounds ---------*/
+
+    .parallax-section > .bg-img-fumo {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/videoclip fumo y bebo 214 x 322 .png") !important;
+    }
+
+    .parallax-section > .bg-img-restos {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/Coming soon cortometraje los restos de la cama coproductores 214x322.png") !important;
+    }
+
+    .parallax-section > .bg-img-opening {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/opening concierto 214 x 322.png") !important;
+    }
+    .parallax-section > .bg-img-tarde  {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/video clip volviste tarde 214x322.png") !important;
+    }
+    .parallax-section > .bg-img-transmi {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/transmilenials piloto coproductores 214x322.png") !important;
+    }
+    .parallax-section > .bg-img-pipe {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/concierto 15 años pipe bueno 214x322.png") !important;
+    }
+    .parallax-section > .bg-img-behind {
+      background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/Behind the scenes - pipe bueno 950 x 956.png");
+    }
+    .parallax-section > .bg-img-fuera {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/podcast - fuera de set  214 x 322 .png") !important;
+    }
+    .parallax-section > .bg-img-misteriosa {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/misteriosa coproductores 214 x 322 .png") !important;
+    }
+    .parallax-section > .bg-img-nono {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/video clip no me digas que no  214x322.png") !important;
+    }
+    .parallax-section > .bg-img-cantina {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/video clip la cantina 214x322.png") !important;
+    }
+    .parallax-section > .bg-img-casa {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/capsulas la casa del diseño colombiano 214 x 322.png") !important;
+    }
+    .parallax-section > .bg-img-movistar {
+      background-image: url("/img/fotos version movile 428 X 908/seccion 2 proyectos/concierto moviestar 214 x 322.png") !important;
+    }
+    .parallax-section > .bg-img-off {
+      background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/COMING SOON podcast voz en off 950 x 956.png");
+    }
+
+    /* --------- Carousel ---------*/
+
+    #servicios > div:last-child {
+      justify-content: center;
+    }
+
+    #customCarousel {
+      height: 58.41vw;
+      width: 87.62vw;
+    }
+
+    .carousel-inner {
+       height: 100%;
+    }
+
+    .carousel-caption {
+      top: 25%;
+    }
+
+    .caption-left {
+      left: 0;
+    }
+
+    .caption-right {
+      left: 50%;
+    }
+
+
+    /* --------- Staff ---------*/
+
+    #equipo > div > div > .kabel-med.pt-30 {
+      font-size: 1.3em;
+    }
+
+    #equipo > div:first-child {
+      margin-bottom: 2.625vw !important;
+    }
+
+    .card-wrapper, .card-img-bg {
+      height: 34.81vw !important;;
+      width: 34.81vw !important;
+    }
+
+    .staff-row-wrapper {
+      gap: 5vw !important;
+    }
+
+    .staff-row-wrapper.mb-42px {
+      margin-bottom: 5vw;
+    }
+
+  /* --------- Partners ---------*/
+
+    #aliados > div:first-child, #aliados > div:nth-child(2), #contacto > div:first-child, form > div:first-child{
+      margin-bottom: 2.475vw !important;
+    }
+
+  /*------- form ------*/
+
+    .mb-form {
+      margin-bottom: 4.1052vw !important;
+    }
+
+    .btn-wrapper {
+      margin-top: 6.1052vw !important;
+    }
+
+    #contacto > div.form-wrapper > form > div.btn-wrapper > button.btn {
+      height: 10vw !important;
+      width: 18vw !important;
+    }
+
   }
