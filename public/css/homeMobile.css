@@ -80,6 +80,9 @@
   
     #nosotros > div:last-child > h5.pt-30 {
       font-size: 1.5em;
+    }
+
+    #nosotros > div:last-child > h5.pt-30:nth-child(2) {
       margin-bottom: 13.6842vw;
     }
   
