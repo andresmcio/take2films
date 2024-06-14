@@ -38,7 +38,7 @@ header {
 .navbar-nav {
     flex-direction: column;
     position: fixed;
-    right: 2.7vw;
+    right: 2.85vw;
     top: 3.8vw;
     z-index: 999;
 }
