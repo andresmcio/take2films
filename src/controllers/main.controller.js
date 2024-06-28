@@ -23,7 +23,7 @@ module.exports = {
 
         res.render('home', {
             title: 'Take2Films | Home',
-            styles: ['homeMobile', 'homeTablet', 'homeDesktop'],
+            styles: ['homeMobile', 'homeTablet', 'homeDesktop', 'homeLaptop'],
             scripts: ['visuals', 'carousel', 'videoHandler', 'blurHandler', 'reelHandler'],
             sections: content,
         });
