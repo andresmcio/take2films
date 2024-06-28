@@ -1,0 +1,21 @@
+@media (min-width: 1024px) and (max-width: 1899px) {
+
+    header {
+        height: 25.20vw !important;
+    }
+    
+    .navbar-brand {
+        margin-bottom: 9.765vw !important;
+        width: 27.54vw !important;
+    }
+
+    .navbar-nav {
+        --bs-nav-link-padding-y: 0.4rem;
+        right: 3.6vw !important;
+        top: 5.8vw !important;
+    }
+
+    .nav-link {
+        font-size: 0.85em;
+    }
+}
