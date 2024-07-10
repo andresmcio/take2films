@@ -172,12 +172,44 @@
     padding: 0.07rem !important;
   }
 
-  #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-18{
+  #proyectos div.parallax-section article.parallax-article:hover div.caption-container {
+    max-width: 85%;
+  }
+
+  #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-22 {
     font-size: 0.7em;
   }
 
-  #proyectos div.parallax-section article.parallax-article:hover div.caption-container {
-    max-width: 85%;
+  #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-18, #proyectos div.parallax-section article.parallax-article.proj-art-1 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-3 .caption-container .grouch.pt-22 {
+    font-size: 0.6em;
+  }
+
+  #proyectos div.parallax-section article.parallax-article.proj-art-4 .caption-container .grouch.pt-22 {
+      font-size: 0.5em;
+  }
+
+  #proyectos div.parallax-section article.parallax-article.proj-art-5 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-11 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-12 .caption-container .grouch.pt-22 {
+      font-size: 0.5em;
+  }
+
+  #proyectos div.parallax-section article.parallax-article.proj-art-6 .caption-container .grouch.pt-22 {
+      font-size: 0.45em;
+  }
+
+  #proyectos div.parallax-section article.parallax-article.proj-art-7 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-8 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-13 .caption-container .grouch.pt-22 {
+      font-size: 0.45em;
+  }
+
+  #proyectos div.parallax-section article.parallax-article.proj-art-9 .caption-container .grouch.pt-22 {
+      font-size: 0.7em;
+  }
+
+  #proyectos div.parallax-section article.parallax-article.proj-art-10 .caption-container .grouch.pt-22 {
+      font-size: 0.5em;
+  }
+
+  h3 p {
+    margin-bottom: 0.5rem;
   }
 
 
