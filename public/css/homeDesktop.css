@@ -357,6 +357,7 @@ img.l-t2f {
 .modal-dialog {
     margin-bottom: 0;
     margin-top: 0;
+    pointer-events: all;
 }
 
 button.btn-closing {

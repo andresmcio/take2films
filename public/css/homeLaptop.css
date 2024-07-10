@@ -8,6 +8,10 @@
       font-size: 2.5em;
     }
 
+    main section:first-child .parallax-section:nth-child(2) a {
+        font-size: 2.3em;
+    }
+
     /* --------- First section backgrounds ---------*/
     
     
@@ -129,9 +133,44 @@
         background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/14- pod cast voz en off coming soon 682x512.png") !important;
     }
 
-    #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-18{
+    #proyectos .caption-container.grey-wrapper.p-3{
+        max-width: 83%;
+        min-width: 82%;
+        padding: 0.05rem !important;
+    }
+
+    #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-22 {
         font-size: 1.8em;
-      }
+    }
+
+    #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-18, #proyectos div.parallax-section article.parallax-article.proj-art-1 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-3 .caption-container .grouch.pt-22 {
+        font-size: 1.6em;
+    }
+
+    #proyectos div.parallax-section article.parallax-article.proj-art-4 .caption-container .grouch.pt-22 {
+        font-size: 1.35em;
+    }
+
+    #proyectos div.parallax-section article.parallax-article.proj-art-5 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-11 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-12 .caption-container .grouch.pt-22 {
+        font-size: 1.4em;
+    }
+
+    #proyectos div.parallax-section article.parallax-article.proj-art-6 .caption-container .grouch.pt-22 {
+        font-size: 1.1em;
+    }
+
+    #proyectos div.parallax-section article.parallax-article.proj-art-7 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-8 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-13 .caption-container .grouch.pt-22 {
+        font-size: 1.3em;
+    }
+
+    #proyectos div.parallax-section article.parallax-article.proj-art-9 .caption-container .grouch.pt-22 {
+        font-size: 0.9em;
+    }
+
+    #proyectos div.parallax-section article.parallax-article.proj-art-10 .caption-container .grouch.pt-22 {
+        font-size: 1em;
+    }
+
     
     /* --------- Carousel ---------*/
 
