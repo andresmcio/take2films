@@ -4,7 +4,7 @@
         font-size: 1.2em;
     }
 
-    footer > div.row {
+    footer > div.row:first-child {
         justify-content: space-between !important;
         padding-left: 8vw;
         padding-right: 8vw;
@@ -32,7 +32,7 @@
     }
 
     footer .pt-14 {
-        font-size: 0.65em;
+        font-size: 0.6em;
     }
 
     footer > div.copy > img {
