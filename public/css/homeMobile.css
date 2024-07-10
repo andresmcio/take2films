@@ -224,20 +224,17 @@
       width: 87.62vw;
     }
 
+    .carousel-caption .grouch {
+      font-size: 1.2em;
+    }
+
     .carousel-inner {
        height: 100%;
     }
 
     .carousel-caption {
-      top: 25%;
-    }
-
-    .caption-left {
-      left: 0;
-    }
-
-    .caption-right {
-      left: 50%;
+      left: 12rem !important;
+      top: 8rem !important;
     }
 
 
