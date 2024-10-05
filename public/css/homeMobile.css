@@ -13,48 +13,58 @@
     }
 
     .parallax-section > .bg-img-projects {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-1 fondo proyectos 214X322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos fondo 214 x916.png") !important;
+      background-position-y: -12rem !important;
     }
 
     .parallax-section > .bg-img-services{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2-Servicios 214 x 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2- servicios 214 x916.png") !important;
+      background-position-y: -12rem !important;
     }
 
     .parallax-section > .bg-img-us{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/5-Sobre nosotros 214 X 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-Sobre nosotros 214 X916.png") !important;
     }
 
     .parallax-section > .bg-img-staff {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-1nuestro equipo fondo 214 x 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-1nuestro equipo fondo 214 x 916.png") !important;
     }
 
     .parallax-section > .bg-img-partners {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-1fondo aliados 214X322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/5-1 aliados SIN silla 214X916.png") !important;
     }
 
     .parallax-section > .bg-img-contact{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/6-contactanos 214X322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/6-contactanos 214X916.png") !important;
     }
 
     .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2proyectos con gente 214x322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos con 214 x916.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-2aliados con silla 214X322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/5-2 aliados con silla 214X916.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-2nuestro equipo 214 x 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-2nuestro equipo con ellos 214 x 916.png") !important;
     }
 
     a.grouch.pt-40{
       font-size: 1em;
     }
 
+    article.bg-img-projects div.caption-container a, article.bg-img-services div.caption-container a {
+      font-size: 1.2em !important;
+    }
+
     div.parallax-section article.parallax-article:hover div.caption-container a {
       font-size: 1.2em !important;
       translate: translateY(-10px);
+    }
+
+    div.parallax-section .parallax-article.bg-img-projects:hover div.caption-container a, div.parallax-section .parallax-article.bg-img-services:hover div.caption-container a {
+      font-size: 1.5em !important;
     }
   
     #proyectos div.parallax-section article.parallax-article:hover div.caption-container a {
@@ -116,52 +126,52 @@
     /* --------- Projects backgrounds ---------*/
 
   .parallax-section > .bg-img-antitusa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/1-Serie-Tips Antitusa  214 x 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/1-Serie-Tips Antitusa  214 x 916.png") !important;
   }
   
   .parallax-section > .bg-img-restos {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/2-Coming soon cortometraje los restos de la cama coproductores 214x322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/2-Coming soon cortometraje los restos de la cama coproductores 214x916.png") !important;
   }
   
   .parallax-section > .bg-img-opening {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/3-opening concierto 214 x 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/3-opening concierto 214 x 916.png") !important;
   }
   
   .parallax-section > .bg-img-fumo {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/4-videoclip fumo y bebo 214 x 322 .png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/4-videoclip fumo y bebo 214 x 916 .png") !important;
   }
   
   .parallax-section > .bg-img-transmi {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x916.png") !important;
   }
   .parallax-section > .bg-img-pipe {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 aคos pipe bueno 214x322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 años pipe bueno 214x916.png") !important;
   }
   
   .parallax-section > .bg-img-tarde  {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/7-video clip volviste tarde 214x322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/7-video clip volviste tarde 214x916.png") !important;
   }
   
   .parallax-section > .bg-img-fuera {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/8-podcast - fuera de set  214 x 322 .png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/8podcast-fuera de set 214x916.png") !important;
   }
   .parallax-section > .bg-img-misteriosa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/9-misteriosa coproductores 214 x 322 .png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/9-misteriosa coproductores 214 x 916 .png") !important;
   }
   .parallax-section > .bg-img-nono {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/10-video clip no me digas que no  214x322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/10-video clip no me digas que no  214x916.png") !important;
   }
   .parallax-section > .bg-img-cantina {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/11-video clip la cantina 214x322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/11-video clip la cantina 214x916.png") !important;
   }
   .parallax-section > .bg-img-casa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/12-capsulas la casa del diseคo colombiano 214 x 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/12-capsulas la casa del diseño colombiano 214 x916.png") !important;
   }
   .parallax-section > .bg-img-movistar {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/13-concierto moviestar arena 214 x 322.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/13-concierto moviestar arena 214 x916.png") !important;
   }
   .parallax-section > .bg-img-off {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/14-Coming soon Podcast Voz en OFF 214 x 322 .png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/14-Coming soon Podcast Voz en OFF 214 x916 .png") !important;
   }
 
 /* --------- Projects  ---------*/
@@ -176,40 +186,68 @@
     max-width: 85%;
   }
 
-  #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-22 {
+  #proyectos div.parallax-section article.proj-art-1 div.grey-wrapper {
+    padding: 0.4em !important;
+  }
+
+  #proyectos div.parallax-section article.proj-art-2 div.grey-wrapper,  parallax-section article.proj-art-3 div.grey-wrapper, parallax-section article.proj-art-4 div.grey-wrapper, parallax-section article.proj-art-5 div.grey-wrapper, parallax-section article.proj-art-7 div.grey-wrapper, parallax-section article.proj-art-8 div.grey-wrapper, parallax-section article.proj-art-9 div.grey-wrapper, parallax-section article.proj-art-11 div.grey-wrapper, parallax-section article.proj-art-12 div.grey-wrapper, parallax-section article.proj-art-13 div.grey-wrapper, parallax-section article.proj-art-14 div.grey-wrapper {
+    padding: 0.3em !important;
+  }
+
+  .parallax-section article.proj-art-6 div.grey-wrapper {
+    padding: 0.25em !important;
+  }
+
+  .parallax-section article.proj-art-10 div.grey-wrapper {
+    padding: 0.2em !important;
+  }
+
+  .parallax-section article.proj-art-1 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-2 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-10 div.grey-wrapper a h3.grouch {
+    font-size: 0.65em;
+  }
+
+  .parallax-section article.proj-art-3 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-4 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-5 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-7 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-8 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-9 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-11 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-12 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-13 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-14 div.grey-wrapper a h3.grouch {
     font-size: 0.7em;
   }
 
-  #proyectos div.parallax-section article.parallax-article .caption-container .grouch.pt-18, #proyectos div.parallax-section article.parallax-article.proj-art-1 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-3 .caption-container .grouch.pt-22 {
-    font-size: 0.6em;
+  .parallax-section article.proj-art-6 div.grey-wrapper a h3.grouch {
+    font-size: 0.67em;
   }
 
-  #proyectos div.parallax-section article.parallax-article.proj-art-4 .caption-container .grouch.pt-22 {
-      font-size: 0.5em;
+  .parallax-section article.proj-art-1 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-2 div.grey-wrapper a h3.grouch {
+    letter-spacing: 0.07em;
   }
 
-  #proyectos div.parallax-section article.parallax-article.proj-art-5 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-11 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-12 .caption-container .grouch.pt-22 {
-      font-size: 0.5em;
+  .parallax-section article.proj-art-4 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-5 div.grey-wrapper a h3.grouch {
+    letter-spacing: 0.05em;
   }
 
-  #proyectos div.parallax-section article.parallax-article.proj-art-6 .caption-container .grouch.pt-22 {
-      font-size: 0.45em;
+  .parallax-section article.proj-art-6 div.grey-wrapper a h3.grouch, parallax-section article.proj-art-10 div.grey-wrapper a h3.grouch {
+    letter-spacing: 0.02em;
   }
 
-  #proyectos div.parallax-section article.parallax-article.proj-art-7 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-8 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-13 .caption-container .grouch.pt-22 {
-      font-size: 0.45em;
+  .parallax-section article.proj-art-7 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-12 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-13 div.grey-wrapper a h3.grouch {
+    letter-spacing: 0.03em;
   }
 
-  #proyectos div.parallax-section article.parallax-article.proj-art-9 .caption-container .grouch.pt-22 {
-      font-size: 0.7em;
-  }
-
-  #proyectos div.parallax-section article.parallax-article.proj-art-10 .caption-container .grouch.pt-22 {
-      font-size: 0.5em;
+  .parallax-section article.proj-art-8 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-9 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-11 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-14 div.grey-wrapper a h3.grouch {
+    letter-spacing: 0.1em;
   }
 
   h3 p {
     margin-bottom: 0.5rem;
+  }
+
+  .parallax-section article.proj-art-2 div.grey-wrapper a p.grouch:first-child, parallax-section article.proj-art-2 div.grey-wrapper a h3.grouch {
+    margin-bottom: 0.7em;
+  }
+
+  .parallax-section article.proj-art-2 div.grey-wrapper a p.grouch:last-child {
+    margin-bottom: 0.5em;
+  }
+
+  .parallax-section article.proj-art-14 div.grey-wrapper a p.grouch {
+    margin-bottom: 1em;
   }
 
 
