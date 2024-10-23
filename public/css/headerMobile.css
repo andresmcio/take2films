@@ -23,4 +23,10 @@
         top: 3vh;
         width: 34.1121vw !important;
     }
+
+    #lang {
+        font-size: 0.75em;
+        right: 4rem !important;
+        top: 0.35rem !important;
+    }
 }

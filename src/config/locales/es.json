@@ -1,0 +1,192 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "partners": "Aliados",
+      "contact": "Contáctanos"
+    },
+      "parallax": {
+        "projects": "proyectos",
+        "services": "servicios",
+        "about_us": "sobre nosotros",
+        "team": "nuestro equipo",
+        "partners": "aliados",
+        "contact_us": "contáctanos"
+    },  
+    "about_us": {
+      "title": "sobre nosotros",
+      "paragraph1": "<strong class=\"fw-bold\">Take Two Films</strong>, ubicada en la vibrante Bogotá es más que una simple productora audiovisual: es un colectivo de creatividad en constante evolución que se ha ido especializando en la creación de contenido innovador como largometrajes y cortometrajes de ficción, así como en la producción de videoclips y comerciales.",
+      "paragraph2": "Fundada en junio de 2015, nuestra compañía abarca todas las etapas de la producción, desde el desarrollo, pre producción, producción y post producción a nivel nacional e internacional.",
+      "paragraph3": "María Alejandra Delgado y Juan David Tobón son los fundadores y visionarios detrás de <strong class=\"fw-bold\">Take Two Films</strong>, traen consigo más de 20 años de experiencia en la industria audiovisual.",
+      "paragraph4": "Su trayectoria en diversas producciones ha nutrido a <strong class=\"fw-bold\">Take Two Films</strong> con un conocimiento profundo; sumando la participación de jóvenes talentos que hacen un gran match a la hora de crear y producir en esta nueva etapa de la industria.",
+      "paragraph5": "Nuestro compromiso con la innovación en los diferentes mercados, con nuevos talentos, promoviendo la diversidad y la inclusión en cada una de nuestras historias.",
+      "paragraph6": "<strong class=\"fw-bold\">Take Two Films</strong> brilla intensamente como un faro de creatividad y distinción en la narración audiovisual, donde soñamos las ideas, se transforman y cobran vida en cada proyecto.",
+      "quote1": "¡cada familia tiene una historia",
+      "quote2": "esta es la nuestra!"
+    },
+    "projects": {
+      "title": "proyectos",
+      "row1_p1": "",
+      "row1_p2": "",
+      "row2_p1": "Opening Concierto",
+      "row2_p2": "",
+      "row3_p1": "",
+      "row3_p2": "Concierto 15 años Pipe Bueno",
+      "row4_p1": "",
+      "row4_p2": "",
+      "row5_p1": "",
+      "row5_p2": "",
+      "row6_p1": "",
+      "row6_p2": "",
+      "row7_p1": "Concierto Movistar Arena",
+      "row7_p2": "",
+      "commons": {
+        "serie": "Serie",
+        "cortometraje": "Cortometraje",
+        "piloto": "Piloto",
+        "coproductores": "Coproductores",
+        "capsulas": "Cápsulas",
+        "off_vid": "Video Oficial"
+      },
+      "modals": {
+        "row1_p1": "",
+        "row1_p2": "",
+        "row2_p1": "",
+        "row2_p2": "",
+        "row3_p1": "",
+        "row3_p2": {
+          "p1": "“Fuera de set” es un Video podcast dirigido a los estudiantes con carreras audiovisuales, nuevas generaciones en el medio o simplemente aficionados que quieran conocer un poco sobre el detrás de la pantalla del cine y la tv.",
+          "p2": "Este proyecto nace de la necesidad que tiene Brayan, Miguel, Harold y Pepino por transmitir sus conocimientos de lo audiovisual en compañía de sus grandes invitados, quienes nos enriquecerán con sus experiencias y anécdotas que nos llenarán de sensaciones únicas que te harán reír, llorar y hasta bailar."
+        },
+        "row4_p1": "",
+        "row4_p2": "",
+        "row5_p1": "",
+        "row5_p2": "",
+        "row6_p1": "",
+        "row6_p2": "",
+        "row7_p1": "",
+        "row7_p2": ""
+      }
+    },
+    "services": {
+      "title": "servicios",
+      "description": {
+        "p1": "Somos una Empresa 100% Colombiana que Ofrece servicios de producción con un enfoque fresco y vanguardista para la realización de obras cinematográficas, series, videoclips y publicidad. A través de La Ley 1556 que hace parte de la normatividad para la industria audiovisual.",
+        "p2": "En nuestro equipo, abordamos todos los aspectos de la creación audiovisual con un enfoque fresco y vanguardista. Nuestro talentoso equipo profesional y creativo se ocupa de cada etapa: desarrollo, preproducción, producción y postproducción.",
+        "p3": "Comprometidos a impulsar cada proyecto con creatividad y pasión, asegurando que cada narrativa audiovisual cobre vida de manera única. Estamos dedicados a transformar ideas en experiencias visuales impactantes y memorables que conecten al mundo."
+      },
+      "carousel": {
+        "slide1": {
+          "caption": {
+            "top": "Servicios",
+            "bottom": "de Producción"
+          }          
+        },
+        "slide2": {
+          "caption": {
+            "top": "Realización",
+            "bottom": "de Contenido"
+          }
+        },
+        "slide3": "Guiones",
+        "slide4": {
+          "caption": {
+            "top": "Producción",
+            "bottom": "de Comerciales"
+          }
+        },
+        "slide5": "Post Producción",
+        "slide6": {
+          "caption": {
+            "top": "Asesoría",
+            "bottom": "de Proyectos"
+          }
+        }
+      },
+      "team": {
+        "title": "Nuestro Equipo",
+        "sub": "Juntos, transformamos ideas en realidad",
+        "staff": {
+          "maria": {
+            "position1": "FUNDADORA",
+            "position2": "PRODUCTORA",
+            "bio": {
+              "p1": "María Delgado, una apasionada incansable que imprime su esencia en cada proyecto que desarrolla. Siempre en busca de nuevos horizontes, su sed de exploración la convierte en una observadora meticulosa, capturando la esencia de cada momento para tejer magia en favor de sus proyectos.",
+              "p2": "Estudió Comunicación Audiovisual en la Universidad de la Sabana, María dió sus primeros pasos en la industria en Fox telecolombia (actualmente TIS), donde forjó su camino a la asistencia de dirección. Con más de 15 años de experiencia y con su talento ha dejado huella en escenarios como Colombia y México. Su experiencia abarca grandes productoras como Alazraki Films, Dynamo, Perro Azul, Caracol, Media Pro, CMO, Proyectil, Puracé Pictures, Sony Pictures, Fidelio Films, TIS.",
+              "p3": "Actualmente, María está en el desarrollo de una película de ficción como productora y el desarrollo de un proyecto cultural para Colombia. Al mismo tiempo María es directora de proyectos de la Fundación Héroesde Colombia ONG, donde su aporte es clave para el desarrollo y la ayuda de madres e hijos de está.",
+              "more": "Ver más"
+            }
+          },
+          "pepino": {
+            "position1": "FUNDADOR",
+            "position2": "PRODUCTOR",
+            "bio": {
+              "p1": "Juan Tobón, un visionario de la producción audiovisual con una trayectoria vasta y diversa. Su creatividad desbordante y mentalidad positiva dan forma a un portafolio enriquecido, capaz de adaptarse a cualquier escenario. Con una visión clara, transforma ideas en producciones cinematográficas, series y proyectos institucionales.",
+              "p2": "Con más de 20 años inmerso en la industria del cine y la televisión, ha cultivado su talento en escenarios tan diversos como Colombia y República Dominicana. Su pericia ha dejado huella en reconocidas productoras como Caracol, Media Pro, 64 A Films, Dynamo, Teleset, CMO Producciones, Proyectil y MovieBox Producciones.",
+              "p3": "En la actualidad, Juan se encuentra inmerso en la producción de unas cápsulas digitales de cine titulado “Cabecimotor”, al tiempo que desarrolla su ópera prima como productor en una película de ficción.",
+              "more": "Ver más"
+            }
+          },
+          "jeiver": {
+            "position": "DIRECTOR Y GUIONISTA",
+            "bio": {
+              "p1": "Realizador Audiovisual egresado de la Escuela de Cine Lumière, durante su trayectoria se ha desempeñado como Director, guionista y primer asistente de dirección de diversas obras cinematográficas reconocidas a nivel nacional e internacional.",
+              "p2": "Como director, desarrolla la película Volar. Como guionista, en las películas Perros (2017) Todas para uno (2014), De Rolling 2: Por el sueño mundialista (2014), De Rolling por Colombia (2013) y asesor de guión de la pelicula El Arriero (2009). Director de unidades adicionales de la serie Historia de un crimen: ",
+              "p3": "Caso Colmenares (2019) y como Director asistente en las series Hasta que la plata nos separe (2022), Perfil Falso (2023), Pa´ Quererte (2020) y Paraiso Travel (2018). Como primer asistente de dirección participa en los proyectos Cien Años de Soledad (2022 – 2023) El olvido que seremos (2020) Distrito Salvaje (2018) Amalia la secretaria (2017), Corazón de León (2015) entre otras.",
+              "more": "Ver más"
+            }
+          },
+          "felipe": {
+            "position": "EDITOR",
+            "bio": {
+              "p1": "Andrés Felipe Camargo Ariza es un profesional en cine y televisión graduado de la Universidad UniAgustiniana, con experiencia especializada en composición digital, edición y montaje, corrección de color, gestión de datos (DIT y Data manager), videográfo y fotógrafo.",
+              "p2": "Ha dirigido videos musicales para artistas como Nico Hernández, Beto Villa Jr, Andrea Moreno, Giany, entre otros, demostrando un dominio experto de las herramientas y técnicas necesarias en la producción audiovisual.",
+              "p3": "Con más de 8 años de experiencia en la industria, ha desarrollado una profunda comprensión de los procesos y flujos de trabajo en la creación de contenido visual de alta calidad."
+            }
+          },
+          "lauc": {
+            "position": "DIRECTORA CREATIVA",
+            "bio": "Laura Crismatt, una mujer emprendedora y apasionada por el arte, el diseño y los viajes. Su talento y creatividad la convierten en una directora de arte y diseñadora excepcional, capaz de llevar las marcas y proyectos a otro nivel. Además, es una cazadora de ideas y una incubadora de talento con más de 10 años de experiencia."
+          },
+          "laub": {
+            "position": "DIRECTORA CREATIVA",
+            "bio": {
+              "p1": "Laura bonilla mercadóloga y comunicadora de moda con énfasis en la dirección de arte posee un sólido historial en la creación de proyectos visuales impactantes.",
+              "p2": "Su enfoque combina una estética innovadora asegurando que cada proyecto no solo sea visualmente atractivo, sino también comercialmente viable."
+            }
+          },
+          "vale": {
+            "bio": {
+              "p1": "Valentina Ciceri, Comunicadora Social y Periodista graduada de la Universidad Pontificia Bolivariana, especializada en comunicación organizacional y de mercadeo.",
+              "p2": "La creatividad y la empatía son mi sello personal y me apasiona crear contenido que atrape, ya sea gráfico o audiovisual, especialmente para redes sociales. Soy una mujer con un deseo incansable de aprendizaje y un espíritu emprendedor.",
+              "p3": "Mi iniciativa y el disfrute del trabajo en equipo se combinan con mi habilidad para orientar al cliente y encontrar soluciones creativas a cualquier desafío. Me apasiona mantenerme actualizada con las últimas tendencias y siempre busco innovar en cada proyecto en el que me involucro."
+            }
+          },
+          "mario": {
+            "position1": "PUBLICISTA",
+            "position2": "DISEÑADOR",
+            "bio": {
+              "p1": "Mario Ibarra Guerrero, profesional en publicidad  y Mercadeo con más de 15 años de experiencia en el medio de las marcas.",
+              "p2": "Trabajo como diseñador para in house en el sector farmacéutico desarrollando nuevos productos OTC y veterinarios, trabajo en agencia de casting perfilando y coordinando personal para reconocidas producciones de televisión, comerciales y agencias BTLS representando marcas en sus diversas activaciones.",
+              "p3": "Actualmente representa, perfila, coordina y capacita nuevos talentos en producciones de comerciales, eventos para agencias BTLS en sus diversas activaciones de marcas."
+            }
+          }
+        }
+      }
+    },
+    "partners": {
+      "title": "aliados"
+    },
+    "contact_us": {
+      "title": "contáctanos",
+      "catchy": "Déjanos contar tu historia!",
+      "form": {
+        "name": "Nombre",
+        "surname": "Apellidos",
+        "email": "Correo Electrónico",
+        "mobile": "Celular",
+        "message": "Mensaje",
+        "submit": "Enviar"
+      }
+    }
+}  

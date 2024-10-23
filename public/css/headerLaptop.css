@@ -15,7 +15,11 @@
         top: 5.8vw !important;
     }
 
-    .nav-link {
+    .nav-link, #lang {
         font-size: 0.85em;
+    }
+
+    #lang {
+        top: 1.65rem !important;
     }
 }

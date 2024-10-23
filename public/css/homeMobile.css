@@ -13,21 +13,21 @@
     }
 
     .parallax-section > .bg-img-projects {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos fondo 214 x916.png") !important;
-      background-position-y: -12rem !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos fondo 214 x1085.png") !important;
+      background-position-y: -5rem !important;
     }
 
     .parallax-section > .bg-img-services{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2- servicios 214 x916.png") !important;
-      background-position-y: -12rem !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2- servicios 214 x1085.png") !important;
+      background-position-y: -5rem !important;
     }
 
     .parallax-section > .bg-img-us{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-Sobre nosotros 214 X916.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-Sobre nosotros 214 X1223.png") !important;
     }
 
     .parallax-section > .bg-img-staff {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-1nuestro equipo fondo 214 x 916.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-1nuestro equipo fondo 214 x 1223.png") !important;
     }
 
     .parallax-section > .bg-img-partners {
@@ -39,7 +39,7 @@
     }
 
     .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos con 214 x916.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos con gente 214 x1085.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
@@ -47,7 +47,7 @@
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-2nuestro equipo con ellos 214 x 916.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-2nuestro equipo con ellos 214 x 1223.png") !important;
     }
 
     a.grouch.pt-40{
@@ -142,10 +142,10 @@
   }
   
   .parallax-section > .bg-img-transmi {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x916.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x1163.png") !important;
   }
   .parallax-section > .bg-img-pipe {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 años pipe bueno 214x916.png") !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 años pipe bueno 214x1163.png") !important;
   }
   
   .parallax-section > .bg-img-tarde  {
@@ -179,7 +179,7 @@
   #proyectos .caption-container.grey-wrapper.p-3{
     max-width: 83%;
     min-width: 82%;
-    padding: 0.07rem !important;
+    padding: 0.07rem;
   }
 
   #proyectos div.parallax-section article.parallax-article:hover div.caption-container {
