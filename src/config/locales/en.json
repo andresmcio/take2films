@@ -1,0 +1,192 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About Us",
+      "partners": "Partners",
+      "contact": "Contact Us"
+    },
+    "parallax": {
+    "projects": "projects",
+    "services": "services",
+    "about_us": "about us",
+    "team": "our team",
+    "partners": "partners",
+    "contact_us": "contact us"
+  },
+    "about_us": {
+      "title": "about us",
+      "paragraph1": "<strong class=\"fw-bold\">Take Two Films</strong>, located in vibrant Bogotá, is more than just an audiovisual production company: it is a constantly evolving collective of creativity specializing in creating innovative content such as feature and short fiction films, as well as producing music videos and commercials.",
+      "paragraph2": "Founded in June 2015, our company covers all stages of production, from development, pre-production, production, and post-production at both national and international levels.",
+      "paragraph3": "María Alejandra Delgado and Juan David Tobón, the founders and visionaries behind <strong class=\"fw-bold\">Take Two Films</strong>, bring over 20 years of experience in the audiovisual industry.",
+      "paragraph4": "Their extensive experience in various productions has enriched <strong class=\"fw-bold\">Take Two Films</strong> with deep knowledge, complemented by the participation of young talents who make a great match when it comes to creating and producing in this new stage of the industry.",
+      "paragraph5": "Our commitment to innovation in different markets, with new talents, promoting diversity and inclusion in each of our stories.",
+      "paragraph6": "<strong class=\"fw-bold\">Take Two Films</strong> shines brightly as a beacon of creativity and distinction in audiovisual storytelling, where we dream of ideas, transform them, and bring them to life in every project.",
+      "quote1": "every family has a story",
+      "quote2": "this is ours!"
+    },
+    "projects": {
+      "title": "projects",
+      "row1_p1": "",
+      "row1_p2": "",
+      "row2_p1": "Concert Opening",
+      "row2_p2": "",
+      "row3_p1": "",
+      "row3_p2": "Pipe Bueno's 15th Anniversary Concert",
+      "row4_p1": "",
+      "row4_p2": "",
+      "row5_p1": "",
+      "row5_p2": "",
+      "row6_p1": "",
+      "row6_p2": "",
+      "row7_p1": "Movistar Arena Concert",
+      "row7_p2": "",
+      "commons": {
+        "serie": "Series",
+        "cortometraje": "Short Film",
+        "piloto": "Pilot Episode",
+        "coproductores": "Co-producers",
+        "capsulas": "Capsules",
+        "off_vid": "Official Video"
+      },
+      "modals": {
+        "row1_p1": "",
+        "row1_p2": "",
+        "row2_p1": "",
+        "row2_p2": "",
+        "row3_p1": "",
+        "row3_p2": {
+          "p1": "“Fuera de set” is a video podcast aimed at students in audiovisual careers, new generations in the industry, or simply enthusiasts who want to learn more about what happens behind the scenes in film and TV",
+          "p2": "This project came out of the eagerness Brayan, Miguel, Harold, and Pepino had to share their knowledge in audiovisual production alongside their esteemed guests, who will enrich us with their experiences and stories, filling us with unique emotions that will make you laugh, cry, and even dance."
+        },
+        "row4_p1": "",
+        "row4_p2": "",
+        "row5_p1": "",
+        "row5_p2": "",
+        "row6_p1": "",
+        "row6_p2": "",
+        "row7_p1": "",
+        "row7_p2": ""
+      }
+    },
+    "services": {
+      "title": "servicios",
+      "description": {
+        "p1": "We are a 100% Colombian company offering production services with a fresh and avant-garde approach to creating films, series, music videos, and advertising. Bound by Law 1556, part of the regulations for the audiovisual industry.",
+        "p2": "In our team, we approach all aspects of audiovisual creation with a mint and innovative perspective. Our talented, professional, and creative team takes care of every stage: development, pre-production, production, and post-production.",
+        "p3": "We are committed to driving each project through creativity and passion, ensuring that every audiovisual narrative uniquely comes to life. We turn ideas into impactful and memorable visual experiences that connect with the world."
+      },
+      "carousel": {
+        "slide1": {
+          "caption": {
+            "top": "Production",
+            "bottom": "Services"
+          }          
+        },
+        "slide2": {
+          "caption": {
+            "top": "Content",
+            "bottom": "Creation"
+          }
+        },
+        "slide3": "Scripts",
+        "slide4": {
+          "caption": {
+            "top": "Commercials",
+            "bottom": "Production"
+          }
+        },
+        "slide5": "Post Production",
+        "slide6": {
+          "caption": {
+            "top": "Project",
+            "bottom": "Consulting"
+          }
+        }
+      },
+      "team": {
+        "title": "Our Team",
+        "sub": "Together, we turn ideas into reality",
+        "staff": {
+          "maria": {
+            "position1": "FOUNDER",
+            "position2": "PRODUCER",
+            "bio": {
+              "p1": "María Delgado, a tireless, passion-driven individual, imprints her essence in every project she develops. She's always seeking new horizons, and her thirst for exploration makes her a meticulous observer, capturing the essence of every moment to weave magic in favor of her projects.",
+              "p2": "She studied Audiovisual Communication at Universidad de la Sabana and took her first steps in the industry at Fox Telecolombia (now TIS), where she paved her way into direction assistance. With over 15 years of experience, her talent has made a mark in Colombia and Mexico. Her expertise spans big production companies such as Alazraki Films, Dynamo, Perro Azul, Caracol, Media Pro, CMO, Proyectil, Puracé Pictures, Sony Pictures, Fidelio Films, and TIS.",
+              "p3": "Currently, María is working on developing a fiction film as a producer and a cultural project for Colombia. At the same time, she is the project director of the Héroes de Colombia Foundation NGO, where her contribution is essential to helping mothers and their children.",
+              "more": "See more"
+            }
+          },
+          "pepino": {
+            "position1": "FOUNDER",
+            "position2": "PRODUCER",
+            "bio": {
+              "p1": "Juan Tobón is a visionary in audiovisual production with a vast and diverse career. His overflowing creativity and positive mindset shape a rich portfolio capable of adapting to any scenario. With a clear vision, he transforms ideas into films, series, and institutional projects.",
+              "p2": "With more than 20 years immersed in the film and television industry, he has cultivated his talent in diverse settings such as Colombia and the Dominican Republic. His expertise has left its mark on renowned production companies such as Caracol, Media Pro, 64 A Films, Dynamo, Teleset, CMO Productions, Proyectil, and MovieBox Productions.",
+              "p3": "Currently, Juan is immersed in producing digital cinema capsules titled 'Cabecimotor' while developing his debut film as a producer.",
+              "more": "See more"
+            }
+          },
+          "jeiver": {
+            "position": "DIRECTOR AND SCREENWRITER",
+            "bio": {
+              "p1": "Audiovisual producer graduated from the Lumière Film School. He worked as a director, screenwriter, and first assistant director on various nationally and internationally recognized film projects.",
+              "p2": "As a director, he is developing the movie Volar. As a screenwriter, he worked on the films Perros (2017), Todas para uno (2014), De Rolling 2: Por el sueño mundialista (2014), De Rolling por Colombia (2013), and script advisor for the movie El Arriero (2009). He was also the director of additional units in the series Historia de un crimen: Caso Colmenares (2019) and assistant director in the series Hasta que la plata nos separe (2022), Perfil Falso (2023), Pa´ Quererte (2020), and Paraiso Travel (2018).",
+              "p3": "As a first assistant director, he participated in projects such as Cien Años de Soledad (2022–2023), El olvido que seremos (2020), Distrito Salvaje (2018), Amalia la secretaria (2017), Corazón de León (2015), and others.",
+              "more": "Ver más"
+            }
+          },
+          "felipe": {
+            "position": "EDITOR",
+            "bio": {
+              "p1": "Andrés Felipe Camargo Ariza is a film and television professional who graduated from UniAgustiniana University with specialized experience in digital composition, editing, color correction, data management (DIT and Data manager), videographer, and photography.",
+              "p2": "He has directed music videos for artists like Nico Hernández, Beto Villa Jr, Andrea Moreno, and Giany, showcasing expert command of the tools and techniques necessary for audiovisual production.",
+              "p3": "With over 8 years of experience in the industry, he has developed a deep understanding of processes and workflows in creating high-quality visual content."
+            }
+          },
+          "lauc": {
+            "position": "CREATIVE DIRECTOR",
+            "bio": "Laura Crismatt is an entrepreneurial woman passionate about art, design, and travel. Her talent and creativity make her an exceptional art director and designer, capable of taking brands and projects to the next level. She is also an idea hunter and talent incubator with over 10 years of experience."
+          },
+          "laub": {
+            "position": "CREATIVE DIRECTOR",
+            "bio": {
+              "p1": "Laura Bonilla, a marketer and fashion communicator focusing on art direction, has a strong track record in creating impactful visual projects.",
+              "p2": "Her approach combines innovative aesthetics, ensuring each project is visually attractive and commercially viable."
+            }
+          },
+          "vale": {
+            "bio": {
+              "p1": "Valentina Ciceri, a Social Communicator and Journalist. She graduated from Pontificia Bolivariana University and specializes in organizational and marketing communication.",
+              "p2": "My trademarks are creativity and empathy. I am passionate about creating captivating content, either graphic or audiovisual, especially for social media.",
+              "p3": "I have an insatiable desire to learn and an entrepreneurial spirit, mixed with a knack for teamwork, customer orientation, and creative problem-solving. I strive to stay updated with the latest trends and seek to innovate in every project I'm involved in."
+            }
+          },
+          "mario": {
+            "position1": "ADVERTISER",
+            "position2": "DESIGNER",
+            "bio": {
+              "p1": "Mario Ibarra Guerrero is a professional in advertising and marketing with over 15 years of experience in branding.",
+              "p2": "He has worked as an in-house designer in the pharmaceutical sector, developing new OTC and veterinary products. He has also worked in casting agencies, profiling and coordinating talent for well-known TV productions, commercials, and BTLS agency activations, representing brands in various events.",
+              "p3": "He currently represents, profiles, coordinates, and trains new talents for commercials, events, and brand activations with BTLS agencies."
+            }
+          }
+        }
+      }
+    },
+    "partners": {
+      "title": "partners"
+    },
+    "contact_us": {
+      "title": "contact us",
+      "catchy": "Let us tell your story!",
+      "form": {
+        "name": "First Name",
+        "surname": "Last Name",
+        "email": "Email",
+        "mobile": "Mobile Number",
+        "message": "Message",
+        "submit": "Send"
+      }
+    }
+  }  

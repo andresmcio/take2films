@@ -3,22 +3,26 @@
         <a class="navbar-brand" href="/">
             <img src="/img/animacion logo T2F version1.2 pag web.gif" alt="Take2Films Logo">
         </a>
+        <div id="lang" class="lang-select" type="button">
+            <span id="es-select" class="text-pwhite kabel-med pt-14 active">ES <i class="flag">🇨🇴</i></span> / 
+            <span id="en-select" class="text-pwhite kabel-med pt-14">EN <i class="flag">🇺🇸</i></span>
+        </div>
         <button class="navbar-toggler shdw" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#start">Inicio</a>
+                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#start"><%= __('navbar.home') %></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#nosotros">Nosotros</a>
+                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#nosotros"><%= __('navbar.about') %></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#aliados">Aliados</a>
+                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#aliados"><%= __('navbar.partners') %></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#contacto">Contáctanos</a>
+                    <a class="nav-link text-pwhite kabel-med pt-14 shdw" href="#contacto"><%= __('navbar.contact') %></a>
                 </li>
             </ul>
         </div>
