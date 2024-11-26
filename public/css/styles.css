@@ -144,6 +144,10 @@ a:hover, a:focus {
 
 /* --------- Font sizing ---------*/
 
+.pt-12 {
+    font-size: 0.99em !important;
+}
+
 .pt-14 {
     font-size: 1.163em;
 }
