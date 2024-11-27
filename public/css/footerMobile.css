@@ -28,4 +28,8 @@
     footer > div.copy > img {
         width: 19.21vw !important;
     }
+
+    footer div.copy .col-5 {
+        width: 45%;
+    }
 }
