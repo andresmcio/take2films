@@ -128,6 +128,11 @@
       padding: 0.3rem !important;
     }
 
+    .reel {
+      height: 100% !important;
+      width: 100% !important;
+    }
+
 
     /* --------- Projects backgrounds ---------*/
 
@@ -285,8 +290,8 @@
     }
 
     .carousel-caption {
-      left: 12rem !important;
-      top: 8rem !important;
+      left: 10.5rem !important;
+      top: 7rem !important;
     }
 
 
@@ -357,6 +362,7 @@
 
     #contacto > div.form-wrapper > form > div.btn-wrapper > button.btn {
       height: 10vw !important;
+      font-size: 0.85rem !important;
       width: 18vw !important;
     }
 
@@ -368,6 +374,24 @@
 
     .modal-wrapper, .modal-content, .modal-header, .modal-body {
       width: 87vw !important;
+  }
+
+  .modal-body {
+    padding-bottom: 15% !important;
+  }
+
+  .modal-body iframe.video-viewer {
+    height: 35% !important;
+    width: 85% !important;
+  }
+
+  button.btn-closing img{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+  }
+
+  .modal-title a {
+    font-size: 0.98rem !important;
   }
 
   }
