@@ -2,8 +2,6 @@
 
     .parallax-article {
       background-size: 50vw 100%!important;
-      /* background-attachment: scroll !important; */
-      /* height: 59.813vw !important; */
       height: 28.2vh !important;
     }
 
@@ -36,13 +34,11 @@
     .parallax-section > .bg-img-partners {
       background-image: url("/img/fotos version mobile 428 X 908/seccion1/5-1 aliados SIN silla 214X1715.png") !important;
       background-size: 50vw 141% !important;
-      /* background-position-y: -14rem !important; */
     }
 
     .parallax-section > .bg-img-contact{
       background-image: url("/img/fotos version mobile 428 X 908/seccion1/6-contactanos 214X1715.png") !important;
       background-size: 50vw 141% !important;
-      /* background-position-y: -14rem !important; */
     }
 
     .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
@@ -52,7 +48,6 @@
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
       background-image: url("/img/fotos version mobile 428 X 908/seccion1/5-1 aliados con silla 214X1715.png") !important;
       background-size: 50vw 141% !important;
-      /* background-position-y: -14rem !important; */
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
@@ -137,15 +132,15 @@
     /* --------- Projects backgrounds ---------*/
 
   .parallax-section > .bg-img-antitusa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/1-Serie-Tips Antitusa  214 x 916.png") !important;
-      background-size: 50vw 100dvh !important;
-      background-position-y: -11rem !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-Serie-Tips Antitusa  214 x1216.png") !important;
+      background-size: 50vw 120dvh !important;
+      background-position-y: -8rem !important;
   }
   
   .parallax-section > .bg-img-restos {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/2-Coming soon cortometraje los restos de la cama coproductores 214x916.png") !important;
-      background-size: 50vw 100dvh !important;
-      background-position-y: -12rem !important;
+      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2-Coming soon cortometraje los restos de la cama coproductores 214x1416.png") !important;
+      background-size: 50vw 120dvh !important;
+      background-position-y: -8rem !important;
   }
   
   .parallax-section > .bg-img-opening {
@@ -376,151 +371,3 @@
   }
 
   }
-
-
-
-  /*--------- iPhone Pro ---------------- */
-
-  /* @media only screen and (min-width: 390px) and (min-height: 844px){
-    
-    /* -------------  main section ------------------- */
-    /* .parallax-section > .bg-img-projects {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos fondo 214 x1085.png") !important;
-      background-position-y: -2rem !important;
-    }
-
-    .parallax-section > .bg-img-services{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2- servicios 214 x1085.png") !important;
-      background-position-y: -2rem !important;
-    }
-
-    .parallax-section > .bg-img-us{
-      background-position-y: -12rem !important;
-    }
-
-    .parallax-section > .bg-img-staff {
-      background-position-y: -12rem !important;  
-    }
-
-    .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-      
-      background-position-y: -17.5rem !important;
-    } */
-
-    /* ------------- projects ------------------------ */
-    /* .parallax-section > .bg-img-antitusa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/1-Serie-Tips Antitusa  214 x 916.png") !important;
-      background-position-y: -12.5rem !important;
-  }
-  
-  .parallax-section > .bg-img-restos {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/2-Coming soon cortometraje los restos de la cama coproductores 214x916.png") !important;
-      background-position-y: -14rem !important;
-  }
-
-  .parallax-section > .bg-img-transmi {
-    background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x1163.png") !important;
-    background-position-y: 12rem !important;
-  }
-  .parallax-section > .bg-img-pipe {
-    background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 años pipe bueno 214x1163.png") !important;
-    background-position-y: 12rem !important;
-  }
-} */
- 
-
-  /*-------- iPhone Pro Max ------------ */
-
-/* @media only screen and (min-width:428px) and (min-height:926px) { */
-
-    /* -------------  main section ------------------- */
-    /* .parallax-section > .bg-img-us{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-Sobre nosotros 214 X1263ver1ojo.png") !important;
-      background-size: 50vw 125% !important;
-      background-position-y: -9rem !important;
-    }
-
-    .parallax-section > .bg-img-staff {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-1nuestro equipo fondo 214 x 1263ojover1.png") !important;
-      background-size: 50vw 125% !important;
-      background-position-y: -9rem !important;  
-    }
-
-    .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-2nuestro equipo con ellos 214 x 1263ver1ojo.png") !important;
-      background-size: 50vw 125% !important;
-      background-position-y: -9rem !important;
-    } */
-
-    /* ------------- projects ------------------------ */
-  
-    /* .parallax-section > .bg-img-restos {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/2-Coming soon cortometraje los restos de la cama coproductores 214x916.png") !important;
-      background-position-y: -16rem !important;
-    }
-
-    .parallax-section > .bg-img-transmi {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x1163.png") !important;
-      background-position-y: 13rem !important;
-    }
-    .parallax-section > .bg-img-pipe {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 años pipe bueno 214x1163.png") !important;
-      background-position-y: 13rem !important;
-    }
-} */
-
-
-/*-------- Equipos pequeños ------------ */
-
-/* @media only screen and (max-width: 375px) and (max-height: 667px) { */
-  
-  /* -------------  main section ------------------- */
-  /* .parallax-section > .bg-img-projects {
-    background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos fondo 214 x1085.png") !important;
-    background-position-y: -1.5rem !important;
-  }
-
-  .parallax-section > .bg-img-services{
-    background-image: url("/img/fotos version mobile 428 X 908/seccion1/2- servicios 214 x1085.png") !important;
-    background-position-y: -1.5rem !important;
-  }
-
-  .parallax-section > .bg-img-us{
-    background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-Sobre nosotros 214 X1223.png") !important;
-    background-size: 50vw 125% !important;
-    background-position-y: -4rem !important;
-  }
-
-  .parallax-section > .bg-img-staff {
-    background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-1nuestro equipo fondo 214 x 1223.png") !important;
-    background-size: 50vw 125% !important;
-    background-position-y: -4rem !important;  
-  }
-
-  .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-    background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-2nuestro equipo con ellos 214 x 1223.png") !important;
-    background-size: 50vw 125% !important;
-    background-position-y: -4rem !important;
-  } */
-
-    /* ------------- projects ------------------------ */
-  
-    /* .parallax-section > .bg-img-antitusa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/1-Serie-Tips Antitusa  214 x 916.png") !important;
-      background-position-y: -9rem !important;
-  }
-  
-  .parallax-section > .bg-img-restos {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/2-Coming soon cortometraje los restos de la cama coproductores 214x916.png") !important;
-      background-position-y: -10rem !important;
-  }
-
-  .parallax-section > .bg-img-transmi {
-    background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x1163.png") !important;
-    background-position-y: 10rem !important;
-  }
-  .parallax-section > .bg-img-pipe {
-    background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 años pipe bueno 214x1163.png") !important;
-    background-position-y: 10rem !important;
-  }
-} */
