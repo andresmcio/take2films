@@ -134,3 +134,5 @@ dist
 T2F.sh
 setup.txt
 T2F.bat
+Gruntfile.js
+*.map
