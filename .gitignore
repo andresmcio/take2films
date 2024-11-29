@@ -136,3 +136,4 @@ setup.txt
 T2F.bat
 Gruntfile.js
 *.map
+*.pem
