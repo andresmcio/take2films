@@ -1,12 +1,18 @@
 require('dotenv').config();
 const { resolve } = require('path');
 const express = require('express');
+const https = require('https');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const i18n = require('./config/i18n.config');
 const languageMiddleware = require('./middlewares/language.middleware');
 const app = express();
 const { port, callback } = require('./modules/port');
+
+const options = {
+    key: fs.readFileSync('./take2films_key.pem'),
+    cert: fs.readFileSync('./take2films_cert.pem')
+}
 
 app.set('views', resolve(__dirname, './views'));
 app.set('view engine', 'ejs');
@@ -24,4 +30,6 @@ app.use('/', require('./routes/main.routes'));
 app.use('/users', require('./routes/users.routes'));
 app.use('*', require('./routes/404.routes'));
 
-app.listen(port, callback(port));
+https.createServer(options, app).listen(port, () => {
+    callback(port); 
+});

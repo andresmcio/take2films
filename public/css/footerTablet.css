@@ -1,0 +1,14 @@
+@media (min-width: 769px) {
+
+    footer .pt-30, footer .pt-16 {
+        font-size: 0.7em;
+    }
+
+    footer .pt-14 {
+        font-size: 0.5em;
+    }
+
+    footer > div.copy > img {
+        width: 15vw !important;
+    }
+}

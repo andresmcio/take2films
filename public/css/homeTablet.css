@@ -1,0 +1,10 @@
+@media (min-width: 769px) {
+
+    /*------- form ------*/
+
+    #contacto > div.form-wrapper > form > div.btn-wrapper > button.btn {
+        height: 4vw !important;
+        font-size: 0.6rem !important;
+        width: 10vw !important;
+      }
+}
