@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
 
     .parallax-article {
-      background-size: 50vw 100%!important;
+      /* background-size: 50vw 100%!important; */
       height: 28.2vh !important;
     }
 
@@ -11,50 +11,63 @@
       margin-bottom: 19.16vw !important;
     }
 
-    .parallax-section > .bg-img-projects {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos fondo 214 x1085.png") !important;
+    .parallax-section > .bg-img-projects .parallax-img, .parallax-section > .bg-img-services .parallax-img {
+      object-position: center -25%;
+  }
+  
+  
+  .parallax-section > .bg-img-us .parallax-img, .parallax-section > .bg-img-staff .parallax-img {
+      object-position: center 110%;
+  }
+
+  .parallax-section > .bg-img-partners .parallax-img, .parallax-section > .bg-img-contact .parallax-img {
+    object-position: center 110%;
+  }
+
+    /* .parallax-section > .bg-img-projects {
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/1-2 proyectos fondo 214 x1085.png") !important;
     }
 
     .parallax-section > .bg-img-services{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2- servicios 214 x1085.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/2- servicios 214 x1085.png") !important;
     }
 
     .parallax-section > .bg-img-us{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/3-Sobre nosotros 214 X1283ojo otros celulares.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/3-Sobre nosotros 214 X1283ojo otros celulares.png") !important;
       background-size: 50vw 135% !important;
       background-position-y: -12dvh !important;
     }
 
     .parallax-section > .bg-img-staff {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-1nuestro equipo fondo 214 x 1283ojo otros celulares.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/4-1nuestro equipo fondo 214 x 1283ojo otros celulares.png") !important;
       background-size: 50vw 135% !important;
       background-position-y: -12dvh !important;  
     }
 
     .parallax-section > .bg-img-partners {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/5-1 aliados SIN silla 214X1715.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/5-1 aliados SIN silla 214X1715.png") !important;
       background-size: 50vw 141% !important;
     }
 
     .parallax-section > .bg-img-contact{
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/6-contactanos 214X1715.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/6-contactanos 214X1715.png") !important;
       background-size: 50vw 141% !important;
     }
 
     .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-2 proyectos con gente 214 x1085.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/1-2 proyectos con gente 214 x1085.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/5-1 aliados con silla 214X1715.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/5-1 aliados con silla 214X1715.png") !important;
       background-size: 50vw 141% !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/4-2nuestro equipo con ellos 214 x 1283ojootros celulares.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/4-2nuestro equipo con ellos 214 x 1283ojootros celulares.png") !important;
       background-size: 50vw 135% !important;
       background-position-y: -18dvh !important;
-    }
+    } */
 
     a.grouch.pt-40{
       font-size: 1em;
@@ -136,60 +149,72 @@
 
     /* --------- Projects backgrounds ---------*/
 
-  .parallax-section > .bg-img-antitusa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/1-Serie-Tips Antitusa  214 x1216.png") !important;
+  /* .parallax-section > .bg-img-antitusa {
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/1-Serie-Tips_Antitusa_214x1216.png") !important;
       background-size: 50vw 120dvh !important;
       background-position-y: -8rem !important;
   }
   
   .parallax-section > .bg-img-restos {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion1/2-Coming soon cortometraje los restos de la cama coproductores 214x1416.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion1/2-Coming_soon_cortometraje_los_restos_de_la_cama_coproductores_214x1416.png") !important;
       background-size: 50vw 120dvh !important;
       background-position-y: -8rem !important;
   }
   
   .parallax-section > .bg-img-opening {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/3-opening concierto 214 x 916.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/3-opening_concierto_214x916.png") !important;
   }
   
   .parallax-section > .bg-img-fumo {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/4-videoclip fumo y bebo 214 x 916 .png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/4-videoclip_fumo_y_bebo_214x916.png") !important;
   }
   
   .parallax-section > .bg-img-transmi {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/5-transmilenials piloto coproductores 214x1468ojoversion pro2.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/5-transmilenials_piloto_coproductores_214x1468_ojo_version_pro2.png") !important;
       background-size: 50vw 1468px !important;
       background-position-y: -17rem !important;
   }
   .parallax-section > .bg-img-pipe {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/6-concierto 15 años pipe bueno 214x1468ojoversion pro2.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/6-concierto_15_años_pipe_bueno_214x1468_ojo_version_pro2.png") !important;
       background-size: 50vw 1468px !important;
   }
   
   .parallax-section > .bg-img-tarde  {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/7-video clip volviste tarde 214x916.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/7-video_clip_volviste_tarde_214x916.png") !important;
   }
   
   .parallax-section > .bg-img-fuera {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/8podcast-fuera de set 214x916.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/8podcast-fuera_de_set_214x916.png") !important;
   }
   .parallax-section > .bg-img-misteriosa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/9-misteriosa coproductores 214 x 916 .png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/9-misteriosa_coproductores_214x916.png") !important;
   }
   .parallax-section > .bg-img-nono {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/10-video clip no me digas que no  214x916.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/10-video_clip_no_me_digas_que_no_214x916.png") !important;
   }
   .parallax-section > .bg-img-cantina {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/11-video clip la cantina 214x916.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/11-video_clip_la_cantina_214x916.png") !important;
   }
   .parallax-section > .bg-img-casa {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/12-capsulas la casa del diseño colombiano 214 x916.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/12-capsulas_la_casa_del_diseño_colombiano_214x916.png") !important;
   }
   .parallax-section > .bg-img-movistar {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/13-concierto moviestar arena 214 x916.png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/13-concierto_moviestar_arena_214x916.png") !important;
   }
   .parallax-section > .bg-img-off {
-      background-image: url("/img/fotos version mobile 428 X 908/seccion 2 proyectos/14-Coming soon Podcast Voz en OFF 214 x916 .png") !important;
+      background-image: url("/img/fotos_version_mobile_428X908/seccion_2_proyectos/14-Coming_soon_Podcast_Voz_en_OFF_214x916.png") !important;
+  } */
+
+  .parallax-section > .bg-img-antitusa .parallax-img{
+    object-position: center -35%;
+  }
+
+  .parallax-section > .bg-img-restos .parallax-img {
+    object-position: center -3%;
+  }
+
+  .parallax-section > .bg-img-transmi .parallax-img, .parallax-section > .bg-img-pipe .parallax-img{
+    object-position: center 98%;
   }
 
 /* --------- Projects  ---------*/
@@ -394,3 +419,10 @@
   }
 
   }
+
+/* Agrega este bloque para dispositivos iOS */
+@supports (-webkit-touch-callout: none) {
+  .parallax-article {
+    background-attachment: scroll !important;
+  }
+}

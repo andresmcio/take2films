@@ -15,41 +15,41 @@
     /* --------- First section backgrounds ---------*/
     
     
-    .parallax-section > .bg-img-projects {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/1-1proyectos fondo 682x512.png") !important;
+    /* .parallax-section > .bg-img-projects {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/1-1proyectos fondo 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-services{
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/2 servicios 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/2 servicios 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-us{
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/3 sobre nosotros 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/3 sobre nosotros 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-staff {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/4 nuestro equipo  fondo 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/4 nuestro equipo  fondo 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-partners {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/5 fondo aliados sin silla 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/5 fondo aliados sin silla 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-contact{
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/6 contactanos 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/6 contactanos 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/1 proyectos 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/1 proyectos 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/5-1aliados con silla 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/5-1aliados con silla 682x512.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion1 fotos/4-1 nuestro equipo 682x512.png") !important;
-    }
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/4-1 nuestro equipo 682x512.png") !important;
+    } */
 
     div.parallax-section article.parallax-article:hover div.caption-container a {
         font-size: 2.8em;
@@ -84,54 +84,54 @@
 
     /* --------- Projects backgrounds ---------*/
 
-  .parallax-section > .bg-img-antitusa {
-    background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/1-Serie - Tips Antitusa 682x512.png") !important;
+  /* .parallax-section > .bg-img-antitusa {
+    background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/1-Serie-Tips_Antitusa_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-restos {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/2-comming soon los restos de la cama 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/2-comming_soon_los_restos_de_la_cama_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-opening {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/3-Opening Concierto 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/3-Opening_Concierto_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-fumo {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/4-Videoclip - Fumo y Bebo 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/4-Videoclip-Fumo_y_Bebo_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-transmi {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/5-Transmilenials Piloto - Coproductores 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/5-Transmilenials_Piloto-Coproductores_682x512.png") !important;
     }
     .parallax-section > .bg-img-pipe {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/6-Concierto 15 aคos Pipe Bueno 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/6-Concierto_15_años_Pipe_Bueno_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-tarde  {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/7-Videoclip - Volviste Tarde 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/7-Videoclip-Volviste_Tarde_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-fuera {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/8-Podcast - Fuera de Set 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/8-Podcast-Fuera_de_Set_682x512.png") !important;
     }
     .parallax-section > .bg-img-misteriosa {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/9-Misteriosa - Piloto Coproductores 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/9-Misteriosa-Piloto_Coproductores_682x512.png") !important;
     }
     .parallax-section > .bg-img-nono {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/10-Videoclip - No me digas que no 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/10-Videoclip-No_me_digas_que_no_682x512.png") !important;
     }
     .parallax-section > .bg-img-cantina {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/11- Videoclip - La Cantina 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/11-Videoclip-La_Cantina_682x512.png") !important;
     }
     .parallax-section > .bg-img-casa {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/12-C psulas - La Casa del Dise¤o Colombiano 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/12-Cápsulas-La_Casa_del_Diseño_Colombiano_682x512.png") !important;
     }
     .parallax-section > .bg-img-movistar {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/13-Concierto Movistar Arena 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/13-Concierto_Movistar_Arena_682x512.png") !important;
     }
     .parallax-section > .bg-img-off {
-        background-image: url("/img/fotos version 1024x816 version portatil/seccion2 fotos proyectos/14- pod cast voz en off coming soon 682x512.png") !important;
-    }
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/14-pod_cast_voz_en_off_coming_soon_682x512.png") !important;
+    } */
 
     #proyectos .caption-container.grey-wrapper.p-3{
         max-width: 83%;

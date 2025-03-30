@@ -1,10 +1,23 @@
 .parallax-article {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 50vw 100vh;
+    position:relative;
+    overflow: hidden;
     height: 100vh;
     padding: 0;
-    transition: background-image 0.3s ease-in-out;
+}
+
+.parallax-article picture {
+    height: 100vh;
+}
+
+.parallax-img {
+    position: absolute;
+    top: unset;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    will-change: transform;
+    transform: translate3d(0,0,0);
 }
 
 /* --------- First section backgrounds ---------*/
@@ -15,26 +28,8 @@
     width: fit-content;
 }
 
-.parallax-section > .bg-img-projects {
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/proyectos1 fondo.png");
-    background-position: left center;
-}
 
-.parallax-section > .bg-img-services{
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/servicios.png");
-    background-position: right center;
-}
-
-.parallax-section > .bg-img-us{
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/sobre nosotros.png");
-    background-position: left center;
-}
-
-.parallax-section > .bg-img-staff {
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/fondo nuestro equipo.png");
-    background-position: right center;
-}
-
+/* 
 .parallax-section > .bg-img-partners {
     background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/aliados fondo sin silla 950 x 956.png");
     background-position: left center;
@@ -55,7 +50,7 @@
 
 .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
     background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/nuestro equipo.png");
-}
+} */
 
 .reel {
     height: 31.3684vw;
@@ -93,68 +88,68 @@
 
 /* --------- Projects backgrounds ---------*/
 
-.parallax-section > .bg-img-antitusa {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/1- Serie- Tips Antitusa 950 x 956.png");
+/* .parallax-section > .bg-img-antitusa {
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/1-Serie-Tips_Antitusa_950x956.png");
     background-position: left center;
 }
 
 .parallax-section > .bg-img-restos {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/2-coming soon los restos de la cama- coproductores 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/2-coming_soon_los_restos_de_la_cama-coproductores_950x956.png");
     background-position: right center;
 }
 
 .parallax-section > .bg-img-opening {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/3-opening concierto 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/3-opening_concierto_950x956.png");
     background-position: left center;
 }
 
 .parallax-section > .bg-img-fumo {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/4-video clip fumo y bebo 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/4-video_clip_fumo_y_bebo_950x956.png");
     background-position: right center;
 }
 
 .parallax-section > .bg-img-transmi {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/5-Transmileniasls piloto coproductores 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/5-Transmileniasls_piloto_coproductores_950x956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-pipe {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/6-concierto 15 aคos ppipe bueno 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/6-concierto_15_aคos_pipe_bueno_950x956.png");
     background-position: right center;
 }
 
 .parallax-section > .bg-img-tarde  {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/7-video clip Volviste tarde 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/7-video_clip_Volviste_tarde_950x956.png");
     background-position: left center;
 }
 
 .parallax-section > .bg-img-fuera {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/8-Podcast fuera de set 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/8-Podcast_fuera_de_set_950x956.png");
     background-position: right center;
 }
 .parallax-section > .bg-img-misteriosa {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/9-Misteriosa - piloto coproductores 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/9-Misteriosa-piloto_coproductores_950x956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-nono {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/10-videoclip no me digas queno 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/10-videoclip_no_me_digas_queno_950x956.png");
     background-position: right center;
 }
 .parallax-section > .bg-img-cantina {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/11-Videoclip la cantina 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/11-Videoclip_la_cantina_950x956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-casa {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/12-Capsulas - la casa del diseคo colombiano 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/12-Capsulas-la_casa_del_diseคo_colombiano_950x956.png");
     background-position: right center;
 }
 .parallax-section > .bg-img-movistar {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/13-concierto moviestar arena 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/13-concierto_moviestar_arena_950x956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-off {
-    background-image: url("/img/fotos version 1900x--/Fotos seccion2  proyectos/14-COMING SOON podcast voz en off 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/14-COMING_SOON_podcast_voz_en_off_950x956.png");
     background-position: right center;
-}
+} */
 
 /* --------- Carousel ---------*/
 
