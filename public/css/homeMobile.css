@@ -1,8 +1,28 @@
 @media (max-width: 768px) {
 
     .parallax-article {
-      /* background-size: 50vw 100%!important; */
       height: 28.2vh !important;
+      position:relative;
+      overflow: hidden;
+    }
+
+    .parallax-article picture {
+      display: block !important;
+      height: 100vh;
+      visibility: visible !important;
+    }
+
+    .parallax-img {
+      display: block !important;
+      position: absolute;
+      top: unset;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      will-change: transform;
+      transform: translate3d(0,0,0);
+      visibility: visible !important;
     }
 
     /* --------- First section backgrounds ---------*/
@@ -13,16 +33,16 @@
 
     .parallax-section > .bg-img-projects .parallax-img, .parallax-section > .bg-img-services .parallax-img {
       object-position: center -25%;
-  }
+    }
   
   
-  .parallax-section > .bg-img-us .parallax-img, .parallax-section > .bg-img-staff .parallax-img {
-      object-position: center 110%;
-  }
+    .parallax-section > .bg-img-us .parallax-img, .parallax-section > .bg-img-staff .parallax-img {
+        object-position: center 110%;
+    }
 
-  .parallax-section > .bg-img-partners .parallax-img, .parallax-section > .bg-img-contact .parallax-img {
-    object-position: center 110%;
-  }
+    .parallax-section > .bg-img-partners .parallax-img, .parallax-section > .bg-img-contact .parallax-img {
+      object-position: center 110%;
+    }
 
     /* .parallax-section > .bg-img-projects {
       background-image: url("/img/fotos_version_mobile_428X908/seccion1/1-2 proyectos fondo 214 x1085.png") !important;

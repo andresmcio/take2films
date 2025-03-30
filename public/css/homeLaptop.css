@@ -4,6 +4,11 @@
         height: 57.88vh;
     }
 
+    .parallax-img, .parallax-article picture {
+        display: none;
+        visibility: hidden;
+    }
+
     a.grouch.pt-40{
       font-size: 2.5em;
     }
@@ -15,41 +20,41 @@
     /* --------- First section backgrounds ---------*/
     
     
-    /* .parallax-section > .bg-img-projects {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/1-1proyectos fondo 682x512.png") !important;
+    .parallax-section > .bg-img-projects {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/1-1proyectos_fondo_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-services{
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/2 servicios 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/2_servicios_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-us{
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/3 sobre nosotros 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/3_sobre_nosotros_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-staff {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/4 nuestro equipo  fondo 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/4_nuestro_equipo_fondo_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-partners {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/5 fondo aliados sin silla 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/5_fondo_aliados_sin_silla_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-contact{
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/6 contactanos 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/6_contactanos_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/1 proyectos 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/1_proyectos_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/5-1aliados con silla 682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/5-1aliados_con_silla_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1 fotos/4-1 nuestro equipo 682x512.png") !important;
-    } */
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/4-1_nuestro_equipo_682x512.png") !important;
+    }
 
     div.parallax-section article.parallax-article:hover div.caption-container a {
         font-size: 2.8em;
@@ -84,7 +89,7 @@
 
     /* --------- Projects backgrounds ---------*/
 
-  /* .parallax-section > .bg-img-antitusa {
+  .parallax-section > .bg-img-antitusa {
     background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/1-Serie-Tips_Antitusa_682x512.png") !important;
     }
 
@@ -131,7 +136,7 @@
     }
     .parallax-section > .bg-img-off {
         background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/14-pod_cast_voz_en_off_coming_soon_682x512.png") !important;
-    } */
+    }
 
     #proyectos .caption-container.grey-wrapper.p-3{
         max-width: 83%;

@@ -1,24 +1,17 @@
 .parallax-article {
-    position:relative;
-    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50vw 100vh;
     height: 100vh;
     padding: 0;
+    transition: background-image 0.3s ease-in-out;
 }
 
-.parallax-article picture {
-    height: 100vh;
+.parallax-img, .parallax-article picture {
+    display: none;
+    visibility: hidden;
 }
 
-.parallax-img {
-    position: absolute;
-    top: unset;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    will-change: transform;
-    transform: translate3d(0,0,0);
-}
 
 /* --------- First section backgrounds ---------*/
 
@@ -28,29 +21,52 @@
     width: fit-content;
 }
 
+.parallax-section > .bg-img-projects {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/proyectos1_fondo.png");
+    background-position: left center;
+}
 
-/* 
 .parallax-section > .bg-img-partners {
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/aliados fondo sin silla 950 x 956.png");
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/aliados_fondo_sin_silla_950x956.png");
+    background-position: left center;
+}
+
+.parallax-section > .bg-img-services{
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/servicios.png");
+    background-position: right center;
+}
+
+.parallax-section > .bg-img-us{
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/sobre_nosotros.png");
+    background-position: left center;
+}
+
+.parallax-section > .bg-img-staff {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/fondo_nuestro_equipo.png");
+    background-position: right center;
+}
+
+.parallax-section > .bg-img-partners {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/aliados_fondo_sin_silla_950x956.png");
     background-position: left center;
 }
 
 .parallax-section > .bg-img-contact{
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/contactanos.png");
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/contactanos.png");
     background-position: right center;
 }
 
 .parallax-section > .bg-img-projects.focus, .parallax-section > .bg-img-projects:hover {
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/proyectos con gente1.png");
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/proyectos_con_gente1.png");
 }
 
 .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-partners:hover {
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/aliados silla.png");
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/aliados_silla.png");
 }
 
 .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-    background-image: url("/img/fotos version 1900x--/fotos seccion1 web T2F/nuestro equipo.png");
-} */
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/nuestro_equipo.png");
+}
 
 .reel {
     height: 31.3684vw;
@@ -88,68 +104,68 @@
 
 /* --------- Projects backgrounds ---------*/
 
-/* .parallax-section > .bg-img-antitusa {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/1-Serie-Tips_Antitusa_950x956.png");
+.parallax-section > .bg-img-antitusa {
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/1-Serie-Tips_Antitusa_950x956.png");
     background-position: left center;
 }
 
 .parallax-section > .bg-img-restos {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/2-coming_soon_los_restos_de_la_cama-coproductores_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/2-coming_soon_los_restos_de_la_cama-coproductores_950x956.png");
     background-position: right center;
 }
 
 .parallax-section > .bg-img-opening {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/3-opening_concierto_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/3-opening_concierto_950x956.png");
     background-position: left center;
 }
 
 .parallax-section > .bg-img-fumo {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/4-video_clip_fumo_y_bebo_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/4-video_clip_fumo_y_bebo_950x956.png");
     background-position: right center;
 }
 
 .parallax-section > .bg-img-transmi {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/5-Transmileniasls_piloto_coproductores_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/5-Transmileniasls_piloto_coproductores_950x956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-pipe {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/6-concierto_15_aคos_pipe_bueno_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/6-concierto_15_aคos_pipe_bueno_950x956.png");
     background-position: right center;
 }
 
 .parallax-section > .bg-img-tarde  {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/7-video_clip_Volviste_tarde_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/7-video_clip_Volviste_tarde_950x956.png");
     background-position: left center;
 }
 
 .parallax-section > .bg-img-fuera {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/8-Podcast_fuera_de_set_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/8-Podcast_fuera_de_set_950x956.png");
     background-position: right center;
 }
 .parallax-section > .bg-img-misteriosa {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/9-Misteriosa-piloto_coproductores_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/9-Misteriosa-piloto_coproductores_950x956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-nono {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/10-videoclip_no_me_digas_queno_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/10-videoclip_no_me_digas_queno_950x956.png");
     background-position: right center;
 }
 .parallax-section > .bg-img-cantina {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/11-Videoclip_la_cantina_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/11-Videoclip_la_cantina_950x_956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-casa {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/12-Capsulas-la_casa_del_diseคo_colombiano_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/12-Capsulas-la_casa_del_diseคo_colombiano_950x956.png");
     background-position: right center;
 }
 .parallax-section > .bg-img-movistar {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/13-concierto_moviestar_arena_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/13-concierto_moviestar_arena_950x956.png");
     background-position: left center;
 }
 .parallax-section > .bg-img-off {
-    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2_proyectos/14-COMING_SOON_podcast_voz_en_off_950x956.png");
+    background-image: url("/img/fotos_version_1900x--/Fotos_seccion2 _proyectos/14-COMING_SOON_podcast_voz_en_off_950x956.png");
     background-position: right center;
-} */
+}
 
 /* --------- Carousel ---------*/
 
