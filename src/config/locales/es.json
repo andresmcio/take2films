@@ -15,8 +15,8 @@
     },  
     "about_us": {
       "title": "sobre nosotros",
-      "paragraph1": "<strong class=\"fw-bold\">Take Two Films</strong>, ubicada en la vibrante Bogotá es más que una simple productora audiovisual: es un colectivo de creatividad en constante evolución que se ha ido especializando en la creación de contenido innovador como largometrajes y cortometrajes de ficción, así como en la producción de videoclips y comerciales.",
-      "paragraph2": "Fundada en junio de 2015, nuestra compañía abarca todas las etapas de la producción, desde el desarrollo, pre producción, producción y post producción a nivel nacional e internacional.",
+      "paragraph1": "<strong class=\"fw-bold\">Take Two Films</strong>, ubicada en la vibrante Bogotá es más que una simple productora audiovisual; es un colectivo de creatividad en constante evolución que se ha ido especializando en la creación de contenido innovador como largometrajes y cortometrajes de ficción, así como en la producción de videoclips y comerciales.",
+      "paragraph2": "Fundada en junio de 2015, nuestra compañía abarca todas las etapas de la producción, desde el desarrollo, pre producción, producción hasta post producción a nivel nacional e internacional.",
       "paragraph3": "María Alejandra Delgado y Juan David Tobón son los fundadores y visionarios detrás de <strong class=\"fw-bold\">Take Two Films</strong>, traen consigo más de 20 años de experiencia en la industria audiovisual.",
       "paragraph4": "Su trayectoria en diversas producciones ha nutrido a <strong class=\"fw-bold\">Take Two Films</strong> con un conocimiento profundo; sumando la participación de jóvenes talentos que hacen un gran match a la hora de crear y producir en esta nueva etapa de la industria.",
       "paragraph5": "Nuestro compromiso con la innovación en los diferentes mercados, con nuevos talentos, promoviendo la diversidad y la inclusión en cada una de nuestras historias.",
@@ -157,17 +157,17 @@
           },
           "vale": {
             "bio": {
-              "p1": "Valentina Ciceri, Comunicadora Social y Periodista graduada de la Universidad Pontificia Bolivariana, especializada en comunicación organizacional y de mercadeo.",
-              "p2": "La creatividad y la empatía son mi sello personal y me apasiona crear contenido que atrape, ya sea gráfico o audiovisual, especialmente para redes sociales. Soy una mujer con un deseo incansable de aprendizaje y un espíritu emprendedor.",
-              "p3": "Mi iniciativa y el disfrute del trabajo en equipo se combinan con mi habilidad para orientar al cliente y encontrar soluciones creativas a cualquier desafío. Me apasiona mantenerme actualizada con las últimas tendencias y siempre busco innovar en cada proyecto en el que me involucro."
+              "p1": "Valentina Ciceri es Comunicadora Social y Periodista graduada de la Universidad Pontificia Bolivariana, especializada en comunicación organizacional y de mercadeo.",
+              "p2": "La creatividad y la empatía son su sello personal y le apasiona crear contenido que atrape, ya sea gráfico o audiovisual, especialmente para redes sociales. Es una mujer con un deseo incansable de aprendizaje y un espíritu emprendedor.",
+              "p3": "Su iniciativa y el disfrute del trabajo en equipo se combinan con su habilidad para orientar al cliente y encontrar soluciones creativas a cualquier desafío. Le apasiona mantenerme actualizada con las últimas tendencias y siempre busco innovar en cada proyecto en el que se involucro."
             }
           },
           "mario": {
             "position1": "PUBLICISTA",
             "position2": "DISEÑADOR",
             "bio": {
-              "p1": "Mario Ibarra Guerrero, profesional en publicidad  y Mercadeo con más de 15 años de experiencia en el medio de las marcas.",
-              "p2": "Trabajo como diseñador para in house en el sector farmacéutico desarrollando nuevos productos OTC y veterinarios, trabajo en agencia de casting perfilando y coordinando personal para reconocidas producciones de televisión, comerciales y agencias BTLS representando marcas en sus diversas activaciones.",
+              "p1": "Mario Ibarra Guerrero, profesional en publicidad y Mercadeo con más de 15 años de experiencia en el medio de las marcas.",
+              "p2": "Trabajó como diseñador para in house en el sector farmacéutico desarrollando nuevos productos OTC y veterinarios, trabajo en agencia de casting perfilando y coordinando personal para reconocidas producciones de televisión, comerciales y agencias BTLS representando marcas en sus diversas activaciones.",
               "p3": "Actualmente representa, perfila, coordina y capacita nuevos talentos en producciones de comerciales, eventos para agencias BTLS en sus diversas activaciones de marcas."
             }
           }
