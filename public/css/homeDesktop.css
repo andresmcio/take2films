@@ -199,16 +199,16 @@
     padding: 0;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-prev-ic,
+.carousel-control-next-ic {
     background-color: transparent;
     border: 1px solid transparent;
     height: 60px;
     width: 40px;
 }
 
-.carousel-control-prev-icon::before,
-.carousel-control-next-icon::before {
+.carousel-control-prev-ic::before,
+.carousel-control-next-ic::before {
     content: '';
     display: inline-block;
     width: 30px;
@@ -216,21 +216,21 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #424242; /* Default color */
+    background-color: #c2c1c1; /* Default color */
 }
 
-.carousel-control-prev-icon::before {
-    mask-image: url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'none\' viewBox=\'0 0 16 16\'%3e%3cpath fill-rule=\'evenodd\' d=\'M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z\'/%3e%3c/svg%3e');
+.carousel-control-prev-ic::before {
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'><path d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z'/></svg>");
 }
 
-.carousel-control-next-icon::before {
-    mask-image: url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'none\' viewBox=\'0 0 16 16\'%3e%3cpath fill-rule=\'evenodd\' d=\'M4.646 14.354a.5.5 0 0 1 0-.708L10.293 8 4.646 2.354a.5.5 0 1 1 .708-.708l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708 0z\'/%3e%3c/svg%3e');
+.carousel-control-next-ic::before {
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'><path d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z'/></svg>");
 }
 
-.carousel-control-prev:hover .carousel-control-prev-icon::before,
-.carousel-control-next:hover .carousel-control-next-icon::before,
-.carousel-control-prev:focus .carousel-control-prev-icon::before,
-.carousel-control-next:focus .carousel-control-next-icon::before {
+.carousel-control-prev:hover .carousel-control-prev-ic::before,
+.carousel-control-next:hover .carousel-control-next-ic::before,
+.carousel-control-prev:focus .carousel-control-prev-ic::before,
+.carousel-control-next:focus .carousel-control-next-ic::before {
     background-color: #ffffff; /* Hover and active color */
 }
 
