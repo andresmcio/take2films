@@ -199,6 +199,17 @@
     padding: 0;
 }
 
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    text-decoration: none;
+    outline: 0;
+    opacity: 1;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: .8;
+    transition: opacity .15s ease;
+}
+
 .carousel-control-prev-ic,
 .carousel-control-next-ic {
     background-color: transparent;
@@ -217,6 +228,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #c2c1c1; /* Default color */
+    transition: background-color .15s ease;
 }
 
 .carousel-control-prev-ic::before {
@@ -374,6 +386,7 @@ img.l-t2f {
 button.btn-closing {
     background: transparent;
     border: none;
+    color: #808080;
     height: 4em;
     width: 4em;
 }
