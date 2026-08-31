@@ -138,3 +138,12 @@ Gruntfile.js
 *.map
 
 *pem
+# Local engineering scaffold — working docs, specs and one-off tooling.
+# Not part of the deployed site; kept out of the client-facing repo.
+CLAUDE.md
+AGENTS.md
+docs/
+ai-specs/
+tools/
+*.rollout.html
+proyectos-rename-manifest.csv

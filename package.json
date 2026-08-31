@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "build": "grunt cssmin:development uglify:development",
+    "dev": "npm run build && concurrently -n grunt,server -c cyan,green \"grunt watch\" \"npx nodemon ./src/app.js\"",
     "test": "npx nodemon ./src/app.js",
     "send-testmail": "node ./src/tests/testMail.js",
     "start": "node ./src/app.js"
@@ -31,6 +33,7 @@
     "nodemailer": "^6.9.13"
   },
   "devDependencies": {
+    "concurrently": "^10.0.5",
     "grunt": "^1.6.1",
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-uglify": "^5.2.2",
