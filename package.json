@@ -2,10 +2,13 @@
   "name": "take2films",
   "version": "1.0.0",
   "main": "app.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "grunt cssmin:development uglify:development",
-    "dev": "npm run build && concurrently -n grunt,server -c cyan,green \"grunt watch\" \"npx nodemon ./src/app.js\"",
-    "test": "npx nodemon ./src/app.js",
+    "dev": "npm run build && concurrently -n grunt,server -c cyan,green \"grunt watch\" \"nodemon ./src/app.js\"",
+    "test": "nodemon ./src/app.js",
     "send-testmail": "node ./src/tests/testMail.js",
     "start": "node ./src/app.js"
   },
@@ -33,10 +36,11 @@
     "nodemailer": "^6.9.13"
   },
   "devDependencies": {
-    "concurrently": "^10.0.5",
+    "concurrently": "^9.2.4",
     "grunt": "^1.6.1",
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-uglify": "^5.2.2",
-    "grunt-contrib-watch": "^1.1.0"
+    "grunt-contrib-watch": "^1.1.0",
+    "nodemon": "^3.0.3"
   }
 }

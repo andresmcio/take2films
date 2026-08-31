@@ -2,7 +2,11 @@
 
 ## Requisitos
 
-- Node.js 18+ y npm
+- **Node.js 18 o superior** (declarado en `engines` de `package.json`).
+  Todas las dependencias del proyecto aceptan Node 18. Si añades un paquete
+  nuevo, comprueba su campo `engines`: un paquete que exija Node 20+ instala
+  sin quejarse y luego revienta al ejecutar.
+- npm
 - Un archivo `.env` en la raíz (no versionado). Ver `.env.template`.
 
 ## Instalación
