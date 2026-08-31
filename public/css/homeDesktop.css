@@ -215,7 +215,7 @@
     left: 75%;
 }
 
-.carousel-item > .row > div, #customCarousel {
+.carousel-item > .row > div, #customCarousel, #fusionCarousel {
     padding: 0;
 }
 

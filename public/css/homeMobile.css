@@ -226,7 +226,7 @@
       justify-content: center;
     }
 
-    #customCarousel {
+    #customCarousel, #fusionCarousel {
       height: 58.41vw;
       width: 87.62vw;
     }
