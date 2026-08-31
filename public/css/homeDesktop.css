@@ -104,6 +104,26 @@
 
 /* --------- Projects backgrounds ---------*/
 
+.parallax-section > .bg-img-karma {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion2_proyectos/1-ejercito_del_karma_950x956.png");
+    background-position: left center;
+}
+
+.parallax-section > .bg-img-nacidos {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion2_proyectos/2-nacidos_en_colombia_950x956.png");
+    background-position: right center;
+}
+
+.parallax-section > .bg-img-defrente {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion2_proyectos/3-de_frente_sin_pausa_950x956.png");
+    background-position: left center;
+}
+
+.parallax-section > .bg-img-danny {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion2_proyectos/12-video_opening_danny_marin_950x956.png");
+    background-position: right center;
+}
+
 .parallax-section > .bg-img-antitusa {
     background-image: url("/img/fotos_version_1900x--/fotos_seccion2_proyectos/5-serie_tips_antitusa_950x956.png");
     background-position: left center;

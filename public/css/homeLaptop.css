@@ -89,6 +89,22 @@
 
     /* --------- Projects backgrounds ---------*/
 
+    .parallax-section > .bg-img-karma {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/1-ejercito_del_karma_512x682.png") !important;
+    }
+
+    .parallax-section > .bg-img-nacidos {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/2-nacidos_en_colombia_512x682.png") !important;
+    }
+
+    .parallax-section > .bg-img-defrente {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/3-de_frente_sin_pausa_512x682.png") !important;
+    }
+
+    .parallax-section > .bg-img-danny {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/12-video_opening_danny_marin_512x682.png") !important;
+    }
+
   .parallax-section > .bg-img-antitusa {
     background-image: url("/img/fotos_version_1024x816_version_portatil/seccion2_fotos_proyectos/5-serie_tips_antitusa_512x682.png") !important;
     }
@@ -166,6 +182,10 @@
 
     #proyectos div.parallax-section article.parallax-article.proj-art-11 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-18 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-17 .caption-container .grouch.pt-22 {
         font-size: 1.3em;
+    }
+
+    #proyectos div.parallax-section article.parallax-article.proj-art-1 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-2 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-3 .caption-container .grouch.pt-22, #proyectos div.parallax-section article.parallax-article.proj-art-12 .caption-container .grouch.pt-22 {
+        font-size: 1.4em;
     }
 
     #proyectos div.parallax-section article.parallax-article.proj-art-13 .caption-container .grouch.pt-22 {

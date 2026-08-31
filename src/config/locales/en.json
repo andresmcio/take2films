@@ -30,7 +30,10 @@
       "row3_p2": "Pipe Bueno's 15th Anniversary Concert",
       "row7_p1": "Movistar Arena Concert",
       "commons": {
-        "serie": "Series",
+        "pelicula": "Film",
+          "documental": "Documentary",
+          "video_opening": "Opening Video",
+          "serie": "Series",
         "cortometraje": "Short Film",
         "piloto": "Pilot Episode",
         "coproductores": "Co-producers",

@@ -193,6 +193,16 @@
     letter-spacing: 0.1em;
   }
 
+  /* New projects: no link yet, so captions render without an anchor. */
+  #proyectos div.parallax-section article.proj-art-1 div.grey-wrapper, #proyectos div.parallax-section article.proj-art-2 div.grey-wrapper, #proyectos div.parallax-section article.proj-art-3 div.grey-wrapper, #proyectos div.parallax-section article.proj-art-12 div.grey-wrapper {
+    padding: 0.3em !important;
+  }
+
+  .parallax-section article.proj-art-1 div.grey-wrapper h3.grouch, .parallax-section article.proj-art-2 div.grey-wrapper h3.grouch, .parallax-section article.proj-art-3 div.grey-wrapper h3.grouch, .parallax-section article.proj-art-12 div.grey-wrapper h3.grouch {
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+  }
+
   h3 p {
     margin-bottom: 0.5rem;
   }

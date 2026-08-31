@@ -30,7 +30,10 @@
       "row3_p2": "Concierto 15 años Pipe Bueno",
       "row7_p1": "Concierto Movistar Arena",
       "commons": {
-        "serie": "Serie",
+        "pelicula": "Película",
+          "documental": "Documental",
+          "video_opening": "Video opening",
+          "serie": "Serie",
         "cortometraje": "Cortometraje",
         "piloto": "Piloto",
         "coproductores": "Coproductores",
