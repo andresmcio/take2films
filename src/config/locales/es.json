@@ -26,20 +26,9 @@
     },
     "projects": {
       "title": "proyectos",
-      "row1_p1": "",
-      "row1_p2": "",
       "row2_p1": "Opening Concierto",
-      "row2_p2": "",
-      "row3_p1": "",
       "row3_p2": "Concierto 15 años Pipe Bueno",
-      "row4_p1": "",
-      "row4_p2": "",
-      "row5_p1": "",
-      "row5_p2": "",
-      "row6_p1": "",
-      "row6_p2": "",
       "row7_p1": "Concierto Movistar Arena",
-      "row7_p2": "",
       "commons": {
         "serie": "Serie",
         "cortometraje": "Cortometraje",
@@ -49,23 +38,10 @@
         "off_vid": "Video Oficial"
       },
       "modals": {
-        "row1_p1": "",
-        "row1_p2": "",
-        "row2_p1": "",
-        "row2_p2": "",
-        "row3_p1": "",
         "row3_p2": {
           "p1": "“Fuera de set” es un Video podcast dirigido a los estudiantes con carreras audiovisuales, nuevas generaciones en el medio o simplemente aficionados que quieran conocer un poco sobre el detrás de la pantalla del cine y la tv.",
           "p2": "Este proyecto nace de la necesidad que tiene Brayan, Miguel, Harold y Pepino por transmitir sus conocimientos de lo audiovisual en compañía de sus grandes invitados, quienes nos enriquecerán con sus experiencias y anécdotas que nos llenarán de sensaciones únicas que te harán reír, llorar y hasta bailar."
-        },
-        "row4_p1": "",
-        "row4_p2": "",
-        "row5_p1": "",
-        "row5_p2": "",
-        "row6_p1": "",
-        "row6_p2": "",
-        "row7_p1": "",
-        "row7_p2": ""
+        }
       }
     },
     "services": {

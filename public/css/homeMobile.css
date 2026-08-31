@@ -145,51 +145,51 @@
     max-width: 85%;
   }
 
-  #proyectos div.parallax-section article.proj-art-1 div.grey-wrapper {
+  #proyectos div.parallax-section article.proj-art-5 div.grey-wrapper {
     padding: 0.4em !important;
   }
 
-  #proyectos div.parallax-section article.proj-art-2 div.grey-wrapper,  parallax-section article.proj-art-3 div.grey-wrapper, parallax-section article.proj-art-4 div.grey-wrapper, parallax-section article.proj-art-5 div.grey-wrapper, parallax-section article.proj-art-7 div.grey-wrapper, parallax-section article.proj-art-8 div.grey-wrapper, parallax-section article.proj-art-9 div.grey-wrapper, parallax-section article.proj-art-11 div.grey-wrapper, parallax-section article.proj-art-12 div.grey-wrapper, parallax-section article.proj-art-13 div.grey-wrapper, parallax-section article.proj-art-14 div.grey-wrapper {
+  #proyectos div.parallax-section article.proj-art-6 div.grey-wrapper,  parallax-section article.proj-art-7 div.grey-wrapper, parallax-section article.proj-art-8 div.grey-wrapper, parallax-section article.proj-art-9 div.grey-wrapper, parallax-section article.proj-art-11 div.grey-wrapper, parallax-section article.proj-art-18 div.grey-wrapper, parallax-section article.proj-art-13 div.grey-wrapper, parallax-section article.proj-art-15 div.grey-wrapper, parallax-section article.proj-art-16 div.grey-wrapper, parallax-section article.proj-art-17 div.grey-wrapper, parallax-section article.proj-art-4 div.grey-wrapper {
     padding: 0.3em !important;
   }
 
-  .parallax-section article.proj-art-6 div.grey-wrapper {
+  .parallax-section article.proj-art-10 div.grey-wrapper {
     padding: 0.25em !important;
   }
 
-  .parallax-section article.proj-art-10 div.grey-wrapper {
+  .parallax-section article.proj-art-14 div.grey-wrapper {
     padding: 0.2em !important;
   }
 
-  .parallax-section article.proj-art-1 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-2 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-10 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-5 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-6 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-14 div.grey-wrapper a h3.grouch {
     font-size: 0.65em;
   }
 
-  .parallax-section article.proj-art-3 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-4 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-5 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-7 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-8 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-9 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-11 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-12 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-13 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-14 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-7 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-8 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-9 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-11 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-18 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-13 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-15 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-16 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-17 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-4 div.grey-wrapper a h3.grouch {
     font-size: 0.7em;
   }
 
-  .parallax-section article.proj-art-6 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-10 div.grey-wrapper a h3.grouch {
     font-size: 0.67em;
   }
 
-  .parallax-section article.proj-art-1 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-2 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-5 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-6 div.grey-wrapper a h3.grouch {
     letter-spacing: 0.07em;
   }
 
-  .parallax-section article.proj-art-4 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-5 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-8 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-9 div.grey-wrapper a h3.grouch {
     letter-spacing: 0.05em;
   }
 
-  .parallax-section article.proj-art-6 div.grey-wrapper a h3.grouch, parallax-section article.proj-art-10 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-10 div.grey-wrapper a h3.grouch, parallax-section article.proj-art-14 div.grey-wrapper a h3.grouch {
     letter-spacing: 0.02em;
   }
 
-  .parallax-section article.proj-art-7 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-12 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-13 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-11 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-16 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-17 div.grey-wrapper a h3.grouch {
     letter-spacing: 0.03em;
   }
 
-  .parallax-section article.proj-art-8 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-9 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-11 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-14 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-18 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-13 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-15 div.grey-wrapper a h3.grouch, .parallax-section article.proj-art-4 div.grey-wrapper a h3.grouch {
     letter-spacing: 0.1em;
   }
 
@@ -197,15 +197,15 @@
     margin-bottom: 0.5rem;
   }
 
-  .parallax-section article.proj-art-2 div.grey-wrapper a p.grouch:first-child, parallax-section article.proj-art-2 div.grey-wrapper a h3.grouch {
+  .parallax-section article.proj-art-6 div.grey-wrapper a p.grouch:first-child, parallax-section article.proj-art-6 div.grey-wrapper a h3.grouch {
     margin-bottom: 0.7em;
   }
 
-  .parallax-section article.proj-art-2 div.grey-wrapper a p.grouch:last-child {
+  .parallax-section article.proj-art-6 div.grey-wrapper a p.grouch:last-child {
     margin-bottom: 0.5em;
   }
 
-  .parallax-section article.proj-art-14 div.grey-wrapper a p.grouch {
+  .parallax-section article.proj-art-4 div.grey-wrapper a p.grouch {
     margin-bottom: 1em;
   }
 

@@ -26,20 +26,9 @@
     },
     "projects": {
       "title": "projects",
-      "row1_p1": "",
-      "row1_p2": "",
       "row2_p1": "Concert Opening",
-      "row2_p2": "",
-      "row3_p1": "",
       "row3_p2": "Pipe Bueno's 15th Anniversary Concert",
-      "row4_p1": "",
-      "row4_p2": "",
-      "row5_p1": "",
-      "row5_p2": "",
-      "row6_p1": "",
-      "row6_p2": "",
       "row7_p1": "Movistar Arena Concert",
-      "row7_p2": "",
       "commons": {
         "serie": "Series",
         "cortometraje": "Short Film",
@@ -49,23 +38,10 @@
         "off_vid": "Official Video"
       },
       "modals": {
-        "row1_p1": "",
-        "row1_p2": "",
-        "row2_p1": "",
-        "row2_p2": "",
-        "row3_p1": "",
         "row3_p2": {
           "p1": "“Fuera de set” is a video podcast aimed at students in audiovisual careers, new generations in the industry, or simply enthusiasts who want to learn more about what happens behind the scenes in film and TV",
           "p2": "This project came out of the eagerness Brayan, Miguel, Harold, and Pepino had to share their knowledge in audiovisual production alongside their esteemed guests, who will enrich us with their experiences and stories, filling us with unique emotions that will make you laugh, cry, and even dance."
-        },
-        "row4_p1": "",
-        "row4_p2": "",
-        "row5_p1": "",
-        "row5_p2": "",
-        "row6_p1": "",
-        "row6_p2": "",
-        "row7_p1": "",
-        "row7_p2": ""
+        }
       }
     },
     "services": {
