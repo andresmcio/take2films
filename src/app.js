@@ -1,7 +1,6 @@
 require('dotenv').config();
 const { resolve } = require('path');
 const express = require('express');
-const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const i18n = require('./config/i18n.config');
 const languageMiddleware = require('./middlewares/language.middleware');
@@ -17,8 +16,8 @@ app.use(languageMiddleware);
 
 app.use(require('./modules/public'));
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 app.use('/', require('./routes/main.routes'));
 app.use('/users', require('./routes/users.routes'));
