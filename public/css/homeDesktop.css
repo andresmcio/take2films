@@ -323,56 +323,53 @@
 /* --------- Aliados ---------*/
 
 #aliados {
-    margin-bottom: -20vw;
+    margin-bottom: -6vw;
 }
 
-section#aliados > div.brands-3 {
-    gap: 8vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
+/* Partner ring.
+   The circular silhouette comes from how wide each row is allowed to be:
+   narrow at the top and bottom, widest through the middle. Tune the four
+   --ring-row-* values below and nothing else moves. */
+.partners-ring {
+    --ring-row-1: 52vw;
+    --ring-row-2: 78vw;
+    --ring-row-3: 68vw;
+    --ring-row-4: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vw;
 }
 
-img.l-tengo, img.proyectil {
-    top: -10vw;
-    width: 17vw;
+.partner-row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-img.casa-dc, img.eclypsso {
-    width: 27vw;
+.partner-row-1 { max-width: var(--ring-row-1); }
+.partner-row-2 { max-width: var(--ring-row-2); }
+.partner-row-3 { max-width: var(--ring-row-3); }
+.partner-row-4 { max-width: var(--ring-row-4); }
+
+.partner-row img {
+    height: auto;
+    object-fit: contain;
 }
 
-img.FHC {
-    width: 13vw;
-}
-
-img.PipeB {
-    right: 10vw;
-    width: 6vw;
-}
-
-img.casa-dc, img.l-tengo, img.proyectil, img.casa-dc, img.FHC, img.PipeB, img.eclypsso, img.l-t2f {
-    position: relative;
-}
-
-img.l-t2f ,img.FHC, img.PipeB {
-    top: -15vw;
-}
-
-img.l-tengo, img.FHC {
-    left: 7vw;
-}
-
-img.proyectil {
-    right: 3vw;
-}
-
-img.eclypsso {
-    top: -27vw;
-}
-
-img.l-t2f {
-    width: 25vw;
-}
+/* Per-logo widths. Sources vary from 624x444 to 4000x4000, so these are
+   tuned for optical balance rather than being numerically equal. */
+img.l-tengo     { width: 11vw; }
+img.FHC         { width: 9vw; }
+img.proyectil   { width: 12vw; }
+img.casa-dc     { width: 17vw; }
+img.babilonia   { width: 14vw; }
+img.morrocoyo   { width: 14vw; }
+img.l-t2f       { width: 18vw; }
+img.pyb         { width: 9vw; }
+img.fusion      { width: 12vw; }
+img.PipeB       { width: 5vw; }
 
 
 /* --------- Modals ---------*/

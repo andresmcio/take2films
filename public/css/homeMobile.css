@@ -245,6 +245,28 @@
     }
 
 
+    /* --------- Partners ---------*/
+
+    .partners-ring {
+      --ring-row-1: 92vw;
+      --ring-row-2: 88vw;
+      --ring-row-3: 92vw;
+      --ring-row-4: 74vw;
+      row-gap: 7vw;
+    }
+
+    img.l-tengo     { width: 22vw; }
+    img.FHC         { width: 18vw; }
+    img.proyectil   { width: 24vw; }
+    img.casa-dc     { width: 34vw; }
+    img.babilonia   { width: 30vw; }
+    img.morrocoyo   { width: 28vw; }
+    img.l-t2f       { width: 30vw; }
+    img.pyb         { width: 18vw; }
+    img.fusion      { width: 25vw; }
+    img.PipeB       { width: 11vw; }
+
+
     /* --------- Staff ---------*/
 
     #equipo > div > div > .kabel-med.pt-30 {
