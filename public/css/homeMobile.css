@@ -36,7 +36,7 @@
     }
   
   
-    .parallax-section > .bg-img-us .parallax-img, .parallax-section > .bg-img-staff .parallax-img {
+    .parallax-section > .bg-img-us .parallax-img, .parallax-section > .bg-img-coprod .parallax-img {
         object-position: center 110%;
     }
 

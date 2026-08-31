@@ -28,18 +28,18 @@
             <div class="row parallax-section">
                 <article class="col-6 parallax-article bg-img-us d-flex justify-content-center align-items-center">
                     <picture>
-                        <img src="/img/fotos_version_mobile_428X908/seccion1/3-Sobre_nosotros_214X1283_ojo_otros_celulares.png" alt="Nosotros" class="parallax-img" data-parallax="scroll" data-speed="0.3">
+                        <img src="/img/fotos_version_mobile_428X908/seccion1/3-1nuestro_equipo_fondo_214x1283_ojo_otros_celulares.png" alt="Nosotros" class="parallax-img" data-parallax="scroll" data-speed="0.3" data-hover-mobile="/img/fotos_version_mobile_428X908/seccion1/3-2nuestro_equipo_con_ellos_214x1283_ojo_otros_celulares.png">
                     </picture>
                     <div class="text-center text-capitalize caption-container p-3">
                         <a class="text-pwhite grouch shdw spc pt-40" href="#nosotros"><%= __('parallax.about_us') %></a>
                     </div>
                 </article>
-                <article class="col-6 parallax-article bg-img-staff d-flex justify-content-center align-items-center">
+                <article class="col-6 parallax-article bg-img-coprod d-flex justify-content-center align-items-center">
                     <picture>
-                        <img src="/img/fotos_version_mobile_428X908/seccion1/4-1nuestro_equipo_fondo_214x1283_ojo_otros_celulares.png" alt="Equipo" class="parallax-img" data-parallax="scroll" data-speed="0.3" data-hover-mobile="/img/fotos_version_mobile_428X908/seccion1/4-2nuestro_equipo_con_ellos_214x1283_ojo_otros_celulares.png">
+                        <img src="/img/fotos_version_mobile_428X908/seccion1/4-coproducciones_comerciales_fusion_214x1283_ojo_otros_celulares.png" alt="Coproducción comerciales Fusion" class="parallax-img" data-parallax="scroll" data-speed="0.3">
                     </picture>
                     <div class="text-center text-capitalize caption-container p-3">
-                        <a class="text-pwhite grouch shdw spc pt-40" href="#equipo"><%= __('parallax.team') %></a>
+                        <a class="text-pwhite grouch shdw spc pt-40" href="#fusion"><%= __('parallax.coprod') %></a>
                     </div>
                 </article>
             </div>
@@ -87,9 +87,9 @@
                 <h5 class="text-pwhite text-center text-uppercase kabel-med pt-30"><%= __('about_us.quote1') %></h5>
                 <h5 class="text-pwhite text-center text-uppercase mb-63px kabel-med pt-30"><%= __('about_us.quote2') %></h5>
                 <div class="col-12 d-flex justify-content-center mb-82px">
-                    <div class="video-container position-relative">
+                    <div class="video-container vid-cntr1 position-relative">
                         <img src="/img/fotos_version_1900x--/reel_t2f_950x596.png" class="img-fluid" alt="Video thumbnail">
-                        <button class="btn play-button position-absolute top-50 start-50 translate-middle">
+                        <button class="btn play-button play-btn1 position-absolute top-50 start-50 translate-middle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.271 5.055A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .757.429l4-2.5a.5.5 0 0 0 0-.858l-4-2.5a.5.5 0 0 0-.486-.016z"/>
                             </svg>
@@ -97,6 +97,265 @@
                     </div>
                 </div>
             </div>            
+        </section>
+        <section class="container-fluid mb-200px" id="equipo">
+            <div class="row d-flex flex-wrap justify-content-center mb-7">
+                <div class="col-md-9">
+                    <h4 class="text-center text-pwhite mb-5 kabel-demi pt-55"><%= __('services.team.title') %></h4>
+                    <p class="text-pwhite text-center kabel-med pt-30"><%= __('services.team.sub') %></p>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap justify-content-center">
+                <div class="col-md-9">
+                    <div class="row d-flex flex-wrap justify-content-center mb-42px staff-row-wrapper">
+                        <div class="card-wrapper d-flex justify-content-center  to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Maria_delgado_CEO_242x242.png" alt="MARIA DELGADO">
+                            <div class="staff-caption wrapper-1">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#mariaD-bio">
+                                    <h5 class="popps-sb pt-16 mb-42px shdw">MARIA DELGADO</h5>
+                                    <p class="popps-r pt-14 shdw">CEO - <%= __('services.team.staff.maria.position1') %> -</p>
+                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.maria.position2') %></p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="mariaD-bio" tabindex="-1" aria-labelledby="mariaD-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="mariaD-bio-label"><a href="https://www.imdb.com/name/nm7515371/?ref_=ext_shr_lnk" target="_blank">ceo - <%= __('services.team.staff.maria.position1') %> - <%= __('services.team.staff.maria.position2') %></a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.maria.bio.p1') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.maria.bio.p2') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.maria.bio.p3') %></p>
+                                            <p class="text-pwhite text-end popps-r pt-18"><a href="https://www.imdb.com/name/nm7515371/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.maria.bio.more') %>  <img class="imdb-logo" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/logo_IMDb.svg" alt="imdb logo"></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-wrapper d-flex justify-content-center to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Juan_Tobon_pepino_CEO_242x242.png" alt="JUAN TOBÓN PEPINO">
+                            <div class="staff-caption wrapper-1">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#juanT-bio">
+                                    <h5 class="popps-sb pt-16 shdw"><p>JUAN TOBÓN</p>PEPINO</h5>
+                                    <p class="popps-r pt-14 shdw">CEO - <%= __('services.team.staff.pepino.position1') %></p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="juanT-bio" tabindex="-1" aria-labelledby="juanT-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="juanT-bio-label"><a href="https://www.imdb.com/name/nm8008446/?ref_=ext_shr_lnk" target="_blank">ceo - <%= __('services.team.staff.pepino.position1') %></a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.pepino.bio.p1') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.pepino.bio.p2') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.pepino.bio.p3') %></p>
+                                            <p class="text-pwhite text-end popps-r pt-18"><a href="https://www.imdb.com/name/nm8008446/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.pepino.bio.more') %>  <img class="imdb-logo" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/logo_IMDb.svg" alt="imdb logo"></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-wrapper d-flex justify-content-center  to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/3-LAURA_BUITRAGO_productora_242x242.png" alt="LAURA BUITRAGO">
+                            <div class="staff-caption wrapper-1">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#laubui-bio">
+                                    <h5 class="popps-sb pt-16 mb-42px shdw">LAURA BUITRAGO</h5>
+                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.laubui.position') %></p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="laubui-bio" tabindex="-1" aria-labelledby="laubui-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="laubui-bio-label"><a href="https://www.imdb.com/name/nm5779094/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.laubui.position') %></a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.laubui.bio.p1') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.laubui.bio.p2') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.laubui.bio.p3') %></p>
+                                            <p class="text-pwhite text-end popps-r pt-18"><a href="https://www.imdb.com/name/nm5779094/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.laubui.bio.more') %>  <img class="imdb-logo" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/logo_IMDb.svg" alt="imdb logo"></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-wrapper d-flex justify-content-center to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/felipe_camargo_editor_242x242.png" alt="FELIPE CAMARGO">
+                            <div class="staff-caption wrapper-1">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#felipeC-bio">
+                                    <h5 class="popps-sb pt-16 mb-42px shdw">FELIPE CAMARGO</h5>
+                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.felipe.position') %></p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="felipeC-bio" tabindex="-1" aria-labelledby="felipeC-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="felipeC-bio-label"><a href="" target="_blank"><%= __('services.team.staff.felipe.position') %></a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.felipe.bio.p1') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.felipe.bio.p2') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.felipe.bio.p3') %></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="row d-flex flex-wrap justify-content-center staff-row-wrapper">
+                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/laura_crismatt_directora_creativa_242x242.png" alt="LARUA CRISMATT">
+                            <div class="staff-caption">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#lauraC-bio">
+                                    <h5 class="popps-sb pt-16 shdw">LARUA CRISMATT</h5>
+                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.lauc.position') %></p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="lauraC-bio" tabindex="-1" aria-labelledby="lauraC-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="lauraC-bio-label"><a href="" target="_blank"><%= __('services.team.staff.lauc.position') %></a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.lauc.bio') %></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/laura_bonilla_directora_creativa_242x242.png" alt="LAURA BONILLA">
+                            <div class="staff-caption">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#lauraB-bio">
+                                    <h5 class="popps-sb pt-16 shdw">LAURA BONILLA</h5>
+                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.laub.position') %></p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="lauraB-bio" tabindex="-1" aria-labelledby="lauraB-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="lauraB-bio-label"><a href="" target="_blank"><%= __('services.team.staff.laub.position') %></a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.laub.bio.p1') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.laub.bio.p2') %></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Valentina_cerci_community_manegar_242x242.png" alt="VALENTINA CICERI">
+                            <div class="staff-caption">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#valentinaC-bio">
+                                    <h5 class="popps-sb pt-16 shdw">VALENTINA CICERI</h5>
+                                    <p class="popps-r pt-14 shdw">COMMUNITY MANAGER</p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="valentinaC-bio" tabindex="-1" aria-labelledby="valentinaC-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="valentinaC-bio-label"><a href="" target="_blank">COMMUNITY MANAGER</a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.vale.bio.p1') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.vale.bio.p2') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.vale.bio.p3') %></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
+                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Mario_Ibarra_242x242.png" alt="MARIO IBARRA">
+                            <div class="staff-caption">
+                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#marioI-bio">
+                                    <h5 class="popps-sb pt-16 shdw">MARIO IBARRA</h5>
+                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.mario.position1') %> -</p>
+                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.mario.position2') %> -</p>
+                                    <p class="popps-r pt-14 shdw">CASTING </p>
+                                </a>
+                            </div>
+                        </div>
+                         <div class="modal fade bio-modal" id="marioI-bio" tabindex="-1" aria-labelledby="marioI-bio-label" aria-hidden="true">
+                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
+                                <div class="modal-dialog bg-pblackT">
+                                    <div class="modal-content bg-pblackT">
+                                        <div class="modal-header text-pwhite text-uppercase">
+                                            <h5 class="modal-title fs-5 ail-b pt-40" id="marioI-bio-label"><a href="" target="_blank"><%= __('services.team.staff.mario.position1') %> - <%= __('services.team.staff.mario.position2') %> - CASTING</a></h5>
+                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
+                                                <i class="bi bi-x-lg"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body d-flex justify-content-center align-items-center">
+                                        <div class="bio-text">
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.mario.bio.p1') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.mario.bio.p2') %></p>
+                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.mario.bio.p3') %></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="container-fluid mb-148px" id="proyectos">
             <div class="row d-flex justify-content-center pl-3">
@@ -483,265 +742,28 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid mb-200px" id="equipo">
-            <div class="row d-flex flex-wrap justify-content-center mb-7">
-                <div class="col-md-9">
-                    <h4 class="text-center text-pwhite mb-5 kabel-demi pt-55"><%= __('services.team.title') %></h4>
-                    <p class="text-pwhite text-center kabel-med pt-30"><%= __('services.team.sub') %></p>
-                </div>
+        <section class="container-fluid" id="fusion">
+            <div class="row d-flex justify-content-center pl-3">
+                <h2 class="col-10 text-pwhite text-capitalize kabel-demi pt-55"><%= __('fusion.title') %></h2>
             </div>
             <div class="row d-flex flex-wrap justify-content-center">
-                <div class="col-md-9">
-                    <div class="row d-flex flex-wrap justify-content-center mb-42px staff-row-wrapper">
-                        <div class="card-wrapper d-flex justify-content-center  to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Maria_delgado_CEO_242x242.png" alt="MARIA DELGADO">
-                            <div class="staff-caption wrapper-1">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#mariaD-bio">
-                                    <h5 class="popps-sb pt-16 mb-42px shdw">MARIA DELGADO</h5>
-                                    <p class="popps-r pt-14 shdw">CEO - <%= __('services.team.staff.maria.position1') %> -</p>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.maria.position2') %></p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="mariaD-bio" tabindex="-1" aria-labelledby="mariaD-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="mariaD-bio-label"><a href="https://www.imdb.com/name/nm7515371/?ref_=ext_shr_lnk" target="_blank">ceo - <%= __('services.team.staff.maria.position1') %> - <%= __('services.team.staff.maria.position2') %></a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.maria.bio.p1') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.maria.bio.p2') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.maria.bio.p3') %></p>
-                                            <p class="text-pwhite text-end popps-r pt-18"><a href="https://www.imdb.com/name/nm7515371/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.maria.bio.more') %>  <img class="imdb-logo" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/logo_IMDb.svg" alt="imdb logo"></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-wrapper d-flex justify-content-center to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Juan_Tobon_pepino_CEO_242x242.png" alt="JUAN TOBÓN PEPINO">
-                            <div class="staff-caption wrapper-1">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#juanT-bio">
-                                    <h5 class="popps-sb pt-16 shdw"><p>JUAN TOBÓN</p>PEPINO</h5>
-                                    <p class="popps-r pt-14 shdw">CEO - <%= __('services.team.staff.pepino.position1') %> -</p>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.pepino.position2') %></p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="juanT-bio" tabindex="-1" aria-labelledby="juanT-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="juanT-bio-label"><a href="https://www.imdb.com/name/nm8008446/?ref_=ext_shr_lnk" target="_blank">ceo - <%= __('services.team.staff.pepino.position1') %> - <%= __('services.team.staff.pepino.position2') %></a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.pepino.bio.p1') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.pepino.bio.p2') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.pepino.bio.p3') %></p>
-                                            <p class="text-pwhite text-end popps-r pt-18"><a href="https://www.imdb.com/name/nm8008446/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.pepino.bio.more') %>  <img class="imdb-logo" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/logo_IMDb.svg" alt="imdb logo"></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-wrapper d-flex justify-content-center  to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/jeiver_pinto_director_guionista_242x242.png" alt="JEIVER PINTO">
-                            <div class="staff-caption wrapper-1">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#jeiverP-bio">
-                                    <h5 class="popps-sb pt-16 mb-42px shdw">JEIVER PINTO</h5>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.jeiver.position') %></p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="jeiverP-bio" tabindex="-1" aria-labelledby="jeiverP-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="jeiverP-bio-label"><a href="https://www.imdb.com/name/nm5779094/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.jeiver.position') %></a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.jeiver.bio.p1') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.jeiver.bio.p2') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.jeiver.bio.p3') %></p>
-                                            <p class="text-pwhite text-end popps-r pt-18"><a href="https://www.imdb.com/name/nm5779094/?ref_=ext_shr_lnk" target="_blank"><%= __('services.team.staff.jeiver.bio.more') %>  <img class="imdb-logo" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/logo_IMDb.svg" alt="imdb logo"></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-wrapper d-flex justify-content-center to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/felipe_camargo_editor_242x242.png" alt="FELIPE CAMARGO">
-                            <div class="staff-caption wrapper-1">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#felipeC-bio">
-                                    <h5 class="popps-sb pt-16 mb-42px shdw">FELIPE CAMARGO</h5>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.felipe.position') %></p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="felipeC-bio" tabindex="-1" aria-labelledby="felipeC-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="felipeC-bio-label"><a href="" target="_blank"><%= __('services.team.staff.felipe.position') %></a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.felipe.bio.p1') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.felipe.bio.p2') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.felipe.bio.p3') %></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                    <div class="row d-flex flex-wrap justify-content-center staff-row-wrapper">
-                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/laura_crismatt_directora_creativa_242x242.png" alt="LARUA CRISMATT">
-                            <div class="staff-caption">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#lauraC-bio">
-                                    <h5 class="popps-sb pt-16 shdw">LARUA CRISMATT</h5>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.lauc.position') %></p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="lauraC-bio" tabindex="-1" aria-labelledby="lauraC-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="lauraC-bio-label"><a href="" target="_blank"><%= __('services.team.staff.lauc.position') %></a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.lauc.bio') %></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/laura_bonilla_directora_creativa_242x242.png" alt="LAURA BONILLA">
-                            <div class="staff-caption">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#lauraB-bio">
-                                    <h5 class="popps-sb pt-16 shdw">LAURA BONILLA</h5>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.laub.position') %></p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="lauraB-bio" tabindex="-1" aria-labelledby="lauraB-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="lauraB-bio-label"><a href="" target="_blank"><%= __('services.team.staff.laub.position') %></a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.laub.bio.p1') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.laub.bio.p2') %></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Valentina_cerci_community_manegar_242x242.png" alt="VALENTINA CICERI">
-                            <div class="staff-caption">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#valentinaC-bio">
-                                    <h5 class="popps-sb pt-16 shdw">VALENTINA CICERI</h5>
-                                    <p class="popps-r pt-14 shdw">COMMUNITY MANAGER</p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="valentinaC-bio" tabindex="-1" aria-labelledby="valentinaC-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="valentinaC-bio-label"><a href="" target="_blank">COMMUNITY MANAGER</a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.vale.bio.p1') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.vale.bio.p2') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.vale.bio.p3') %></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-wrapper d-flex justify-content-center align-items-center to-blur">
-                            <img class="card-img-bg" src="/img/fotos_version_1900x--/fotos_Equipo_seccion_4/Mario_Ibarra_242x242.png" alt="MARIO IBARRA">
-                            <div class="staff-caption">
-                                <a class="text-center text-pwhite" href="" data-bs-toggle="modal" data-bs-target="#marioI-bio">
-                                    <h5 class="popps-sb pt-16 shdw">MARIO IBARRA</h5>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.mario.position1') %> -</p>
-                                    <p class="popps-r pt-14 shdw"><%= __('services.team.staff.mario.position2') %> -</p>
-                                    <p class="popps-r pt-14 shdw">CASTING </p>
-                                </a>
-                            </div>
-                        </div>
-                         <div class="modal fade bio-modal" id="marioI-bio" tabindex="-1" aria-labelledby="marioI-bio-label" aria-hidden="true">
-                            <div class="modal-wrapper bg-pblackT d-flex justify-content-center">
-                                <div class="modal-dialog bg-pblackT">
-                                    <div class="modal-content bg-pblackT">
-                                        <div class="modal-header text-pwhite text-uppercase">
-                                            <h5 class="modal-title fs-5 ail-b pt-40" id="marioI-bio-label"><a href="" target="_blank"><%= __('services.team.staff.mario.position1') %> - <%= __('services.team.staff.mario.position2') %> - CASTING</a></h5>
-                                            <button type="button" class="btn btn-closing" data-bs-dismiss="modal" aria-label="Cerrar">
-                                                <i class="bi bi-x-lg"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="modal-body d-flex justify-content-center align-items-center">
-                                        <div class="bio-text">
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.mario.bio.p1') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.mario.bio.p2') %></p>
-                                            <p class="text-pwhite text-justfy popps-r pt-18"><%= __('services.team.staff.mario.bio.p3') %></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                       
-                    </div>
+                <div class="col-12 p-36842">
+                    <p class="text-pwhite text-justify popps-r pt-18"><%- __('fusion.paragraph1') %></p>
                 </div>
             </div>
+            <div class="row d-flex justify-content-center mb-7">
+                <div class="col-12 d-flex justify-content-center mb-82px">
+                    <div class="video-container vid-cntr2 position-relative">
+                        <!-- <iframe title="vimeo-player" class="reel" src="https://player.vimeo.com/video/1212545981?h=803eaf5508" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+                        <img src="/img/fotos_version_1900x--/reel_fusion_producciones.jpg" class="img-fluid" alt="Video thumbnail">
+                        <button class="btn play-button play-btn2 position-absolute top-50 start-50 translate-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.271 5.055A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .757.429l4-2.5a.5.5 0 0 0 0-.858l-4-2.5a.5.5 0 0 0-.486-.016z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>            
         </section>
         <section class="container-fluid mb-115px" id="aliados">
             <div class="row d-flex justify-content-center mb-42px">

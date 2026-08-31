@@ -29,11 +29,11 @@
     }
 
     .parallax-section > .bg-img-us{
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/3_sobre_nosotros_682x512.png") !important;
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/3_nuestro_equipo_fondo_682x512.png") !important;
     }
 
-    .parallax-section > .bg-img-staff {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/4_nuestro_equipo_fondo_682x512.png") !important;
+    .parallax-section > .bg-img-coprod {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/4_coporducciones_comerciales_fusion_682x512.png") !important;
     }
 
     .parallax-section > .bg-img-partners {
@@ -52,8 +52,8 @@
         background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/5-1aliados_con_silla_682x512.png") !important;
     }
 
-    .parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
-        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/4-1_nuestro_equipo_682x512.png") !important;
+    .parallax-section > .bg-img-us.focus, .parallax-section > .bg-img-us:hover {
+        background-image: url("/img/fotos_version_1024x816_version_portatil/seccion1_fotos/3-1_nuestro_equipo_682x512.png") !important;
     }
 
     div.parallax-section article.parallax-article:hover div.caption-container a {

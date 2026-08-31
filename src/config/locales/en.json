@@ -9,7 +9,7 @@
     "projects": "projects",
     "services": "services",
     "about_us": "about us",
-    "team": "our team",
+    "coprod": "Fusion adverts Co-production",
     "partners": "partners",
     "contact_us": "contact us"
   },
@@ -108,31 +108,30 @@
         "sub": "Together, we turn ideas into reality",
         "staff": {
           "maria": {
-            "position1": "FOUNDER",
+            "position1": "DIRECTOR",
             "position2": "PRODUCER",
             "bio": {
-              "p1": "María Delgado, a tireless, passion-driven individual, imprints her essence in every project she develops. She's always seeking new horizons, and her thirst for exploration makes her a meticulous observer, capturing the essence of every moment to weave magic in favor of her projects.",
-              "p2": "She studied Audiovisual Communication at Universidad de la Sabana and took her first steps in the industry at Fox Telecolombia (now TIS), where she paved her way into direction assistance. With over 15 years of experience, her talent has made a mark in Colombia and Mexico. Her expertise spans big production companies such as Alazraki Films, Dynamo, Perro Azul, Caracol, Media Pro, CMO, Proyectil, Puracé Pictures, Sony Pictures, Fidelio Films, and TIS.",
-              "p3": "Currently, María is working on developing a fiction film as a producer and a cultural project for Colombia. At the same time, she is the project director of the Héroes de Colombia Foundation NGO, where her contribution is essential to helping mothers and their children.",
+              "p1": "María Delgado is a relentless, passion-driven creator who imprints her essence into every project she develops. Always seeking new horizons, her thirst for exploration makes her a meticulous observer, capturing the essence of every moment to weave magic into her work.",
+              "p2": "Having studied Audiovisual Communication at Universidad de La Sabana, María took her first steps in the industry at Fox Telecolombia (now TIS), where she forged her path in assistant direction. With over 15 years of experience, her talent has left a mark across Colombia and Mexico. Her track record spans major production companies such as Alazraki Films, Dynamo, Perro Azul, Caracol, MediaPro, CMO, Proyectil, Puracé Pictures, Sony Pictures, Fidelio Films, and TIS.",
+              "p3": "Currently, María is producing a narrative feature film in development alongside a cultural project for Colombia. Simultaneously, she serves as Project Director for the Fundación Héroes de Colombia NGO, where her contribution is key to supporting mothers and their children.",
               "more": "See more"
             }
           },
           "pepino": {
-            "position1": "FOUNDER",
-            "position2": "PRODUCER",
+            "position1": "PRODUCER",
             "bio": {
-              "p1": "Juan Tobón is a visionary in audiovisual production with a vast and diverse career. His overflowing creativity and positive mindset shape a rich portfolio capable of adapting to any scenario. With a clear vision, he transforms ideas into films, series, and institutional projects.",
-              "p2": "With more than 20 years immersed in the film and television industry, he has cultivated his talent in diverse settings such as Colombia and the Dominican Republic. His expertise has left its mark on renowned production companies such as Caracol, Media Pro, 64 A Films, Dynamo, Teleset, CMO Productions, Proyectil, and MovieBox Productions.",
-              "p3": "Currently, Juan is immersed in producing digital cinema capsules titled 'Cabecimotor' while developing his debut film as a producer.",
+              "p1": "Juan Tobón is a visionary in audiovisual production with a vast and diverse career. His overflowing creativity and positive mindset shape a rich portfolio capable of adapting to any scenario. With a clear vision, he transforms ideas into feature films, series, and institutional projects.",
+              "p2": "With over 25 years in the film and television industry, he has cultivated his talent in settings as diverse as Colombia and the Dominican Republic. His expertise has left a mark on renowned production companies such as CMO Producciones, Proyectil, MovieBox Producciones, MediaPro, 64 A Films, Dynamo, Caracol, and Teleset.",
+              "p3": "Currently, he is producing a narrative feature film and the documentary Nacidos en Colombia, both in post-production, while leading the development of new film projects at Take Two Films with the goal of championing stories with national and international reach.",
               "more": "See more"
             }
           },
-          "jeiver": {
-            "position": "DIRECTOR AND SCREENWRITER",
+          "laubui": {
+            "position": "PRODUCER",
             "bio": {
-              "p1": "Audiovisual producer graduated from the Lumière Film School. He worked as a director, screenwriter, and first assistant director on various nationally and internationally recognized film projects.",
-              "p2": "As a director, he is developing the movie Volar. As a screenwriter, he worked on the films Perros (2017), Todas para uno (2014), De Rolling 2: Por el sueño mundialista (2014), De Rolling por Colombia (2013), and script advisor for the movie El Arriero (2009). He was also the director of additional units in the series Historia de un crimen: Caso Colmenares (2019) and assistant director in the series Hasta que la plata nos separe (2022), Perfil Falso (2023), Pa´ Quererte (2020), and Paraiso Travel (2018).",
-              "p3": "As a first assistant director, he participated in projects such as Cien Años de Soledad (2022–2023), El olvido que seremos (2020), Distrito Salvaje (2018), Amalia la secretaria (2017), Corazón de León (2015), and others.",
+              "p1": "Laura Buitrago is a Colombian audiovisual producer with a degree in Film and Television from Universidad Jorge Tadeo Lozano. With seven years of experience in the industry, she has built her career participating in the production of feature films, series, documentaries, and commercial projects.",
+              "p2": "Throughout her career, she has been part of companies such as Dago García Producciones, Caracol Televisión, TIS, Dynamo, and Fusión Producciones, working on productions for Netflix, Amazon Prime Video, Paramount+, and Discovery Channel, holding production and coordination roles in large-scale projects.",
+              "p3": "Currently, she works as a line producer, leading the planning and execution of film, documentary, and commercial projects. Her work integrates the management of budgets, teams, resources, and workflows to transform creative proposals into solid, organized, and seamlessly executed productions.",
               "more": "See more"
             }
           },
@@ -173,6 +172,10 @@
           }
         }
       }
+    },
+    "fusion": {
+      "title": "Fusion Commercials Co-Production",
+      "paragraph1": "Fusion Producciones is an audiovisual production company specializing in commercials, music videos, and branded content. With a 21-year track record in the industry, we support every project from initial concept to final delivery, offering end-to-end solutions built on the highest quality standards. Our essence lies in combining creativity, strategy, and cinematic execution to bring high-impact productions to life. We craft stories and imagery that connect with audiences, strengthen brand identity, and deliver memorable results."
     },
     "partners": {
       "title": "partners"

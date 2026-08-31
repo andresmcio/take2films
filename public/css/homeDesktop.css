@@ -37,12 +37,12 @@
 }
 
 .parallax-section > .bg-img-us{
-    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/sobre_nosotros.png");
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/fondo_nuestro_equipo.png");
     background-position: left center;
 }
 
-.parallax-section > .bg-img-staff {
-    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/fondo_nuestro_equipo.png");
+.parallax-section > .bg-img-coprod {
+    background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/Coproduccion_de_comerciales_950x956.png");
     background-position: right center;
 }
 
@@ -64,7 +64,7 @@
     background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/aliados_silla.png");
 }
 
-.parallax-section > .bg-img-partners.focus, .parallax-section > .bg-img-staff:hover {
+.parallax-section > .bg-img-us.focus, .parallax-section > .bg-img-us:hover {
     background-image: url("/img/fotos_version_1900x--/fotos_seccion1_web_T2F/nuestro_equipo.png");
 }
 
