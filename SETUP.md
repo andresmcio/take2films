@@ -85,6 +85,18 @@ configurar el Build Command de Render como `npm install && npm run build`
   de `app.set('trust proxy', 1)`: detrás del proxy de Render, sin eso todas
   las visitas comparten una sola IP y el límite las bloquearía a la vez.
 
+Envío de prueba real (por defecto **a ti mismo**, nunca al cliente):
+
+```bash
+npm run send-testmail                        # a EMAIL_USER
+npm run send-testmail -- alguien@ejemplo.com # a otra dirección
+```
+
+`verify()` sólo hace EHLO, STARTTLS y AUTH. No prueba que el relay acepte el
+sobre: `smtp-relay.gmail.com` aplica sus reglas de remitente y destinatario en
+MAIL FROM / RCPT TO / DATA, así que un envío real es la única comprobación
+concluyente antes de desplegar.
+
 Comprobaciones sin enviar correo real:
 
 ```bash

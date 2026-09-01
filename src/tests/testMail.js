@@ -1,33 +1,46 @@
 require('dotenv').config();
 const nodemailer = require('nodemailer');
 
-const transport_data = {
-  service: process.env.EMAIL_SERVICE,
-  host: process.env.SMTP_HOST,
-  port: parseInt(process.env.SMTP_PORT, 10),
-  secure: false, // true para puerto 465, false para otros puertos
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
-  },
-  tls: {
-    rejectUnauthorized: false,
-  }
-};
+// Use the real transport, not a copy of it. This file used to declare its own
+// config block, which drifted from src/config/mail.js: it still carried
+// `service` (which overrides host/port) and rejectUnauthorized:false long
+// after production stopped using them. A test that exercises different
+// settings than production is worse than no test, because it passes.
+const transport_data = require('../config/mail');
+
+// Never default to the client's inbox. Send to ourselves unless a recipient
+// is given explicitly:  npm run send-testmail -- alguien@ejemplo.com
+const recipient = process.argv[2] || process.env.TEST_MAIL_TO || process.env.EMAIL_USER;
+
+if (!recipient) {
+  console.error('No recipient. Set EMAIL_USER or TEST_MAIL_TO, or pass one as an argument.');
+  process.exit(1);
+}
 
 const transporter = nodemailer.createTransport(transport_data);
+const opts = transporter.transporter.options;
+
+console.log('Transport');
+console.log('  host           :', opts.host + ':' + opts.port);
+console.log('  secure         :', opts.secure, ' requireTLS:', opts.requireTLS);
+console.log('  cert validation:', opts.tls && opts.tls.rejectUnauthorized ? 'ON' : 'OFF (insecure)');
+console.log('  recipient      :', recipient);
+console.log();
 
 const mailOptions = {
   from: process.env.EMAIL_USER,
-  to: process.env.EMAIL_RECEIVER,
-  subject: 'Prueba de correo',
-  text: 'Este es un correo de prueba para verificar la configuración.'
+  to: recipient,
+  subject: 'Prueba de correo - Take 2 Films',
+  text: 'Este es un correo de prueba para verificar la configuración SMTP.',
 };
 
 transporter.sendMail(mailOptions, (error, info) => {
   if (error) {
-    console.log('Error:', error);
-  } else {
-    console.log('Email sent:', info.response);
+    console.error('FAILED:', error.message);
+    if (error.responseCode) console.error('  SMTP code:', error.responseCode);
+    if (error.response) console.error('  SMTP reply:', error.response);
+    process.exit(1);
   }
+  console.log('SENT:', info.response);
+  console.log('  accepted:', info.accepted, ' rejected:', info.rejected);
 });
