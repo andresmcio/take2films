@@ -8,12 +8,13 @@ const nodemailer = require('nodemailer');
 // settings than production is worse than no test, because it passes.
 const transport_data = require('../config/mail');
 
-// Never default to the client's inbox. Send to ourselves unless a recipient
-// is given explicitly:  npm run send-testmail -- alguien@ejemplo.com
-const recipient = process.argv[2] || process.env.TEST_MAIL_TO || process.env.EMAIL_USER;
+// Destinatario por defecto: EMAIL_RECEIVER, igual que el formulario real.
+// Se puede sobreescribir puntualmente sin tocar el .env:
+//   npm run send-testmail -- alguien@ejemplo.com
+const recipient = process.argv[2] || process.env.TEST_MAIL_TO || process.env.EMAIL_RECEIVER;
 
 if (!recipient) {
-  console.error('No recipient. Set EMAIL_USER or TEST_MAIL_TO, or pass one as an argument.');
+  console.error('No recipient. Set EMAIL_RECEIVER, or pass one as an argument.');
   process.exit(1);
 }
 
