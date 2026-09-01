@@ -85,6 +85,14 @@
     display: inline-block;
 }
 
+/* Match .reel (50vw) so the thumbnail and the iframe that replaces it are the
+   same size: otherwise the layout jumps on click at any viewport but 1900px,
+   and the Fusion still (1974px wide) bleeds to the full column. */
+.video-container > img.img-fluid {
+    height: auto;
+    width: 50vw;
+}
+
 .play-button {
     background: none;
     border: none;
@@ -323,7 +331,7 @@
 /* --------- Aliados ---------*/
 
 #aliados {
-    margin-bottom: -6vw;
+    margin-bottom: 6vw;
 }
 
 /* Partner ring.
@@ -331,6 +339,7 @@
    narrow at the top and bottom, widest through the middle. Tune the four
    --ring-row-* values below and nothing else moves. */
 .partners-ring {
+    position: relative;
     --ring-row-1: 52vw;
     --ring-row-2: 78vw;
     --ring-row-3: 68vw;
@@ -366,7 +375,15 @@ img.proyectil   { width: 12vw; }
 img.casa-dc     { width: 17vw; }
 img.babilonia   { width: 14vw; }
 img.morrocoyo   { width: 14vw; }
-img.l-t2f       { width: 18vw; }
+/* Centred on the ring rather than carried by a row, so it is exactly in the
+   middle on both axes whatever the rows around it do. */
+img.l-t2f {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 18vw;
+}
 img.pyb         { width: 9vw; }
 img.fusion      { width: 12vw; }
 img.PipeB       { width: 5vw; }

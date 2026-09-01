@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     playButton2.addEventListener("click", function() {
         videoContainer2.innerHTML = `
-            <iframe class="reel" src="https://player.vimeo.com/video/1212545981?h=803eaf5508" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="reel" src="https://player.vimeo.com/video/1212545981?autoplay=1&byline=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         `;
     });
 });

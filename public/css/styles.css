@@ -52,6 +52,13 @@ a:hover, a:focus {
     padding: 3.6842vw;
 }
 
+/* Same vertical rhythm as .p-36842 but no side padding, so a column can sit
+   flush with the section heading above it. */
+.py-36842 {
+    padding-bottom: 3.6842vw;
+    padding-top: 3.6842vw;
+}
+
 .mb-7 {
     margin-bottom: 5.8571rem !important;
 }

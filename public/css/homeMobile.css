@@ -121,7 +121,11 @@
       width: 100% !important;
     }
 
-  .parallax-section > .bg-img-antitusa .parallax-img{
+    .video-container > img.img-fluid {
+      width: 100% !important;
+    }
+
+  .parallax-section > .bg-img-antitusa .parallax-img, .parallax-section > .bg-img-karma .parallax-img, .parallax-section > .bg-img-nacidos .parallax-img {
     object-position: center -35%;
   }
 
@@ -222,7 +226,7 @@
 
     /* --------- Carousel ---------*/
 
-    #servicios > div:last-child {
+    #servicios > div:last-child, #fusion > div:last-child {
       justify-content: center;
     }
 
