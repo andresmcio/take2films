@@ -1,6 +1,9 @@
 @media (max-width: 768px) {
 
     .parallax-article {
+      /* El fondo CSS es sólo para escritorio: aquí se muestra el <img>, y si
+         ambos coexisten el fondo asoma cuando el parallax desplaza la imagen. */
+      background-image: none !important;
       height: 28.2vh !important;
       position:relative;
       overflow: hidden;
@@ -96,6 +99,10 @@
       padding-right: 6.8921vw;
     }
   
+    #fusion > div:first-child.mb-82px {
+      margin-bottom: 9vw !important;
+    }
+
     #proyectos > div:first-child > h4 {
       margin-bottom: 9.81vw;
     }
