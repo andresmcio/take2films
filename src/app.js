@@ -10,6 +10,12 @@ const { port, callback } = require('./modules/port');
 app.set('views', resolve(__dirname, './views'));
 app.set('view engine', 'ejs');
 
+// Render terminates TLS at its edge proxy, so the visitor's address arrives in
+// X-Forwarded-For rather than on the socket. Trust exactly one hop: `true`
+// would trust the whole chain and let a client forge the header, which would
+// defeat the contact form's per-IP rate limit.
+app.set('trust proxy', 1);
+
 app.use(cookieParser());
 app.use(i18n.init);
 app.use(languageMiddleware);

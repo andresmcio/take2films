@@ -72,6 +72,27 @@ configurar el Build Command de Render como `npm install && npm run build`
   orden y `homeDesktop.css` no está dentro de un media query, así que
   cuidado con la especificidad.
 
+## Correo y formulario de contacto
+
+- El transporte SMTP se configura **solo** con `SMTP_HOST` y `SMTP_PORT`. No
+  vuelvas a añadir `EMAIL_SERVICE`: los presets de nodemailer sobrescriben
+  host y puerto, y durante un tiempo el correo salió por `smtp.gmail.com:465`
+  aunque el `.env` dijera `smtp-relay.gmail.com:587`.
+- La validación del certificado TLS está activada y `requireTLS` obliga a
+  STARTTLS. `SMTP_INSECURE_TLS=true` existe solo para diagnosticar en local.
+- `/users/contact` está limitado por IP (`CONTACT_MAX_REQUESTS` por
+  `CONTACT_WINDOW_MINUTES`, por defecto 5 cada 15 minutos). El límite depende
+  de `app.set('trust proxy', 1)`: detrás del proxy de Render, sin eso todas
+  las visitas comparten una sola IP y el límite las bloquearía a la vez.
+
+Comprobaciones sin enviar correo real:
+
+```bash
+node tools/test-mail-render.js   # cabeceras y escapado
+node tools/test-mail-smtp.js     # envío completo contra un SMTP local de usar y tirar
+node tools/test-smtp-tls.js      # ¿el servidor real presenta un certificado válido?
+```
+
 ## Scripts
 
 | Script | Qué hace |
