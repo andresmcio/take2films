@@ -74,37 +74,38 @@ configurar el Build Command de Render como `npm install && npm run build`
 
 ## Correo y formulario de contacto
 
-- El transporte SMTP se configura **solo** con `SMTP_HOST` y `SMTP_PORT`. No
-  vuelvas a añadir `EMAIL_SERVICE`: los presets de nodemailer sobrescriben
-  host y puerto, y durante un tiempo el correo salió por `smtp.gmail.com:465`
-  aunque el `.env` dijera `smtp-relay.gmail.com:587`.
-- La validación del certificado TLS está activada y `requireTLS` obliga a
-  STARTTLS. `SMTP_INSECURE_TLS=true` existe solo para diagnosticar en local.
+- El transporte lo define **`EMAIL_SERVICE`** (`gmail`). El preset de nodemailer
+  resuelve host, puerto y TLS (`smtp.gmail.com:465`, TLS implícito) y
+  **sobreescribe** cualquier `SMTP_HOST`/`SMTP_PORT`. Por eso `mail.js` ya no
+  los lee: tenerlos en el config los hacía parecer configurables.
+- **No pongas `smtp-relay.gmail.com`.** Ese relay solo admite cuentas de Google
+  Workspace con la IP de salida registrada. Con una cuenta Gmail normal todo
+  envío falla con `550-5.7.0 Mail relay denied ... SMTP relay isn't supported
+  for unmanaged work accounts`, aunque las credenciales sean válidas y `AUTH`
+  pase. Se intentó y se revirtió; el historial está en `src/config/mail.js`.
+- La validación del certificado TLS está activada y verificada contra el
+  servidor real. `SMTP_INSECURE_TLS=true` existe solo para diagnosticar en
+  local, nunca en producción.
 - `/users/contact` está limitado por IP (`CONTACT_MAX_REQUESTS` por
   `CONTACT_WINDOW_MINUTES`, por defecto 5 cada 15 minutos). El límite depende
-  de `app.set('trust proxy', 1)`: detrás del proxy de Render, sin eso todas
-  las visitas comparten una sola IP y el límite las bloquearía a la vez.
+  de `app.set('trust proxy', 1)`: detrás del proxy de Render, sin eso todas las
+  visitas comparten una sola IP y el límite las bloquearía a la vez.
 
-Envío de prueba real. Va a `EMAIL_RECEIVER`, igual que el formulario, así que
-comprueba a dónde apunta tu `.env` antes de ejecutarlo en producción:
+### Al cambiar cualquier cosa del correo
+
+`verify()` (`tools/test-smtp-tls.js`) solo hace EHLO, STARTTLS y AUTH. **Pasa
+aunque el servidor vaya a rechazar el envío**, porque la política de relay se
+aplica en MAIL FROM / RCPT TO. La única prueba concluyente es un envío real:
 
 ```bash
 npm run send-testmail                        # a EMAIL_RECEIVER
 npm run send-testmail -- alguien@ejemplo.com # a otra dirección, sin tocar .env
 ```
 
-`verify()` sólo hace EHLO, STARTTLS y AUTH. No prueba que el relay acepte el
-sobre: `smtp-relay.gmail.com` aplica sus reglas de remitente y destinatario en
-MAIL FROM / RCPT TO / DATA, así que un envío real es la única comprobación
-concluyente antes de desplegar.
+Recuerda que las variables de entorno de Render son independientes del `.env`
+local: un cambio aquí no llega a producción hasta que se replica allí.
 
 Comprobaciones sin enviar correo real:
-
-```bash
-node tools/test-mail-render.js   # cabeceras y escapado
-node tools/test-mail-smtp.js     # envío completo contra un SMTP local de usar y tirar
-node tools/test-smtp-tls.js      # ¿el servidor real presenta un certificado válido?
-```
 
 ## Scripts
 
